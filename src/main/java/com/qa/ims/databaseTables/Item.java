@@ -1,13 +1,20 @@
 package com.qa.ims.databaseTables;
 
-public class Items {
+public class Item {
 
 	private int id;
 	private String name;
 	private double value;
 
-	 public Items(int Id, String name, double value) {
-	
+	public Item(int Id, String name, double value) {
+
+	}
+
+	public Item(String name, double value) {
+		
+		this.setName(name);
+		this.setValue(value);
+
 	}
 
 	public int getId() {
@@ -32,6 +39,10 @@ public class Items {
 
 	public void setValue(double value) {
 		this.value = value;
+	}
+
+	public void add(Item item) {
+		
 	}
 
 }

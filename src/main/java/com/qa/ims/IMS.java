@@ -1,19 +1,34 @@
 package com.qa.ims;
 
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import org.apache.log4j.Logger;
+
+import com.qa.ims.controller.CrudController;
+import com.qa.ims.controller.CustomerController;
+import com.qa.ims.persistence.domain.Domain;
+import com.qa.ims.services.CustomerServices;
 import com.qa.ims.utils.Utils;
+
+
 
 public class IMS {
 	
-	public class Ims {
 
-		public static final Logger LOGGER = Logger.getLogger(Ims.class);
 
-		public void imsSystem() {
+		public static final Logger LOGGER = Logger.getLogger(IMS.class);
+
+		public void IMSSystem() {
 			LOGGER.info("Username");
-			String username = Utils.Input;
+			String username = Utils.getInput();
 			LOGGER.info("What is your password");
-			String password = Utils.Input;
+			String password = Utils.getInput();
 
 			init(username, password);
 
@@ -49,8 +64,8 @@ public class IMS {
 			case CREATE:
 				crudController.create();
 				break;
-			case READ:
-				crudController.readAll();
+			case VIEW:
+				crudController.view();
 				break;
 			case UPDATE:
 				crudController.update();
@@ -115,4 +130,4 @@ public class IMS {
 
 	}
 
-}
+

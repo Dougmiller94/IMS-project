@@ -12,6 +12,13 @@ public class Customer {
 		this.setName(name);
 		this.setSurname(surname);
 	}
+	
+	public Customer(String name, String surname) {
+
+		
+		this.setName(name);
+		this.setSurname(surname);
+	}
 
 	public int getId() {
 		return id;

@@ -6,8 +6,8 @@ public class Utils {
 
 	
 	public static String getInput() {
-		Scanner input = new Scanner(System.in);
-		return input.nextLine();
+		Scanner Input = new Scanner(System.in);
+		return Input.nextLine();
 	}
 
 }
