@@ -2,69 +2,115 @@ package com.qa.ims.persistence;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 
 import org.apache.log4j.Logger;
 
 import com.qa.ims.DAO;
-import com.qa.ims.databaseTables.Customer;
+import com.qa.ims.Runner;
 import com.qa.ims.databaseTables.OrderItems;
 
 public class MySQLOrder_Items implements DAO<OrderItems> {
-	
-	
-		public static final Logger LOGGER = Logger.getLogger(MySQLCustomers.class);
 
-		private String username;
-		private String password;
+	public static final Logger LOGGER = Logger.getLogger(MySQLCustomers.class);
 
-		public MySQLOrder_Items(String username, String password) {
-			super();
-			this.username = username;
-			this.password = password;
-		}
-	
+	private String username;
+	private String password;
 
-	@Override
-	public void create(OrderItems ot) {
-			
-			System.out.println("Create order_ item\n");
-			try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.246.53.168:3306/IMS", username,
-					password);) {
-				Statement statement = connection.createStatement();
-				statement.executeUpdate("insert into order_items(customer_name, customer_surname) values('"
-						+ customer.getName() + "', '" + customer.getSurname() + "')");
+	public MySQLOrder_Items(String username, String password) {
+		super();
+		this.username = username;
+		this.password = password;
+	}
 
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-	
-		
+	private static String searchId;
+
+	public String getSearchId() {
+		return searchId;
+	}
+
+	public void setSearchId(String searchId) {
+		MySQLOrder_Items.searchId = searchId;
 	}
 
 	@Override
-	public ArrayList<OrderItems> view(OrderItems ot) {
-		// TODO Auto-generated method stub
+	public OrderItems create(OrderItems oi) {
+
+		System.out.println("Create order_ item\n");
+		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.246.53.168:3306/IMS", username,
+				password);) {
+			Statement statement = connection.createStatement();
+			statement.executeUpdate("insert into order_items((item_id, order_id, quantity) values(" + oi.getItemId()
+					+ ", " + oi.getOrderId() + ", " + oi.getQuantity() + ")");
+			Runner.LOGGER.info("Created Order Item: item_id: " + oi.getItemId() + " order_id:  " + oi.getOrderId()
+					+ " quantity: " + oi.getQuantity());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		return null;
 	}
 
 	@Override
-	public void update(OrderItems ot) {
-		// TODO Auto-generated method stub
-		
+	public ArrayList<OrderItems> view() {
+		ArrayList<OrderItems> orderItems = new ArrayList<OrderItems>();
+		System.out.println("Veiw order_ item\n");
+		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.246.53.168:3306/IMS", username,
+				password);) {
+
+			Statement statement = connection.createStatement();
+			ResultSet resultSet = statement
+					.executeQuery("select * from order_items");
+			while (resultSet.next()) {
+
+				int itemId = resultSet.getInt("item_id");
+				int orderId = resultSet.getInt("order_id");
+				int quantity = resultSet.getInt("quantity");
+				OrderItems orderItem = new OrderItems();
+				orderItem.setItemId(itemId);
+				orderItem.setOrderId(orderId);
+				orderItem.setQuantity(quantity);
+				orderItems.add(orderItem);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return orderItems;
 	}
 
 	@Override
-	public void delete(int Id) {
-		// TODO Auto-generated method stub
-		
+	public void update(OrderItems oi) {
+		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.246.53.168:3306/IMS", username,
+				password);) {
+
+			Statement statement = connection.createStatement();
+			statement.executeUpdate("update order_items set quantity = " + oi.getQuantity() + " where order_id  = "
+					+ oi.getOrderId() + "and where item_id = " + oi.getItemId());
+			// update order_items set quantity = 5 where order_id = 1 and item_id = 3
+			Runner.LOGGER.info("Updated Item Order: " + oi.getOrderId() + " To item_id: " + oi.getItemId()
+					+ " quantity: " + oi.getQuantity());
+
+		} catch (Exception e) {
+			Runner.LOGGER.info("Error could not update item_order record: " + oi.getOrderId());
+			Runner.LOGGER.info(e);
+		}
+
 	}
-	
-	
-	
-	
-	
-	
+
+	@Override
+	public void delete(int oi) {
+
+		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.246.53.168:3306/IMS", username,
+				password);) {
+			Statement statement = connection.createStatement();
+			statement.executeUpdate("delete from order_items where order_id = " + oi);
+			Runner.LOGGER.info("Deleted Item Order");
+		} catch (Exception e) {
+			Runner.LOGGER.info("Error could not delete Item Order record");
+			Runner.LOGGER.info(e);
+		}
+
+	}
 
 }
