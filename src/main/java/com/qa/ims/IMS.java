@@ -1,19 +1,42 @@
 package com.qa.ims;
 
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import org.apache.log4j.Logger;
+
+import com.qa.ims.controller.CrudController;
+import com.qa.ims.controller.CustomerController;
+import com.qa.ims.controller.ItemController;
+import com.qa.ims.controller.OrderController;
+import com.qa.ims.persistence.MySQLCustomers;
+import com.qa.ims.persistence.MySQLItem;
+import com.qa.ims.persistence.MySQLOrder;
+import com.qa.ims.persistence.domain.Domain;
+import com.qa.ims.services.CustomerServices;
+import com.qa.ims.services.ItemServices;
+import com.qa.ims.services.OrderServices;
 import com.qa.ims.utils.Utils;
+
+
 
 public class IMS {
 	
-	public class Ims {
 
-		public static final Logger LOGGER = Logger.getLogger(Ims.class);
 
-		public void imsSystem() {
+		public static final Logger LOGGER = Logger.getLogger(IMS.class);
+
+		public void IMSSystem() {
 			LOGGER.info("Username");
-			String username = Utils.Input;
+			String username = Utils.getInput();
 			LOGGER.info("What is your password");
-			String password = Utils.Input;
+			String password = Utils.getInput();
 
 			init(username, password);
 
@@ -29,14 +52,22 @@ public class IMS {
 			switch (domain) {
 			case CUSTOMER:
 				CustomerController customerController = new CustomerController(
-						new CustomerServices(new CustomerDaoMysql(username, password)));
+						new CustomerServices(new MySQLCustomers(username, password)));
 				doAction(customerController, action);
 				break;
 			case ITEM:
+				ItemController itemController = new ItemController(
+						new ItemServices(new MySQLItem(username, password)));
+				doAction(itemController, action);
+
 				break;
 			case ORDER:
+				OrderController orderController = new OrderController(
+						new OrderServices(new MySQLOrder(username, password)));
+				doAction(orderController, action);
 				break;
 			case STOP:
+							
 				break;
 			default:
 				break;
@@ -49,8 +80,8 @@ public class IMS {
 			case CREATE:
 				crudController.create();
 				break;
-			case READ:
-				crudController.readAll();
+			case VIEW:
+				crudController.view();
 				break;
 			case UPDATE:
 				crudController.update();
@@ -73,7 +104,7 @@ public class IMS {
 		 * @param password
 		 */
 		public void init(String username, String password) {
-			init("jdbc:mysql://localhost:3306/", username, password, "src/main/resources/sql-schema.sql");
+			init("jdbc:mysql://35.246.53.168:3306/", username, password, "src/main/resources/sql-schema.sql");
 		}
 
 		public String readFile(String fileLocation) {
@@ -115,4 +146,4 @@ public class IMS {
 
 	}
 
-}
+

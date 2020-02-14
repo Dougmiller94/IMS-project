@@ -1,0 +1,3016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ZfOG4E8JEeqjxfCYnCLWQw">
+  <modelElement href="IMS-Project-Maven2.uml#_ZdV3kE8JEeqjxfCYnCLWQw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_fx60AE8JEeqjxfCYnCLWQw" targetItem="_fyA6oE8JEeqjxfCYnCLWQw" sourceItem="_fxxDAE8JEeqjxfCYnCLWQw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_fyUcoE8JEeqjxfCYnCLWQw" sourceAnchor="230.0,0.0" targetAnchor="69.0,144.0" dashed="true" superClass="_fyA6oE8JEeqjxfCYnCLWQw" subClass="_fzEDgE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aPMLQE8JEeqjxfCYnCLWQw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_fyrB8E8JEeqjxfCYnCLWQw" source="_fzEDgE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aRMWYU8JEeqjxfCYnCLWQw"/>
+    <stereotypes xmi:id="_fyrB8U8JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aRM9cE8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_fyrB8k8JEeqjxfCYnCLWQw" text=""/>
+    <sourceRole xmi:id="_fyrB808JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aRMWYk8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fyrB9E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fyrB9U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_fy4dUE8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQUMoE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fy4dUU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fy4dUk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_fzCOUE8JEeqjxfCYnCLWQw" sourceAnchor="217.0,0.0" targetAnchor="98.0,145.0" target="_f81qkE8JEeqjxfCYnCLWQw" source="_fzEDgE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aRM9cU8JEeqjxfCYnCLWQw"/>
+    <bendpoints xmi:id="_g2AHME8JEeqjxfCYnCLWQw" sourceY="-16" targetX="715" targetY="32"/>
+    <bendpoints xmi:id="_g2AuQE8JEeqjxfCYnCLWQw" sourceX="-715" sourceY="-16" targetY="32"/>
+    <stereotypes xmi:id="_fzCOUU8JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aRM9c08JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_fzCOUk8JEeqjxfCYnCLWQw" text="">
+      <visualProperties xmi:id="_g2FmwE8JEeqjxfCYnCLWQw" position="-128.5,-8.499999999999943"/>
+    </nameVisual>
+    <sourceRole xmi:id="_fzCOU08JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aRM9ck8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2E_sk8JEeqjxfCYnCLWQw" position="-236.5,-12.500000000000057"/>
+      <visibility xmi:id="_fzCOVE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fzCOVU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_fzCOVk8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="customerService" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQUMok8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2GN0E8JEeqjxfCYnCLWQw" position="51.0,-16.500000000000057"/>
+      <visibility xmi:id="_fzCOV08JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_fzCOWE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_fzh9kE8JEeqjxfCYnCLWQw" sourceAnchor="189.0,0.0" targetAnchor="69.0,144.0" dashed="true" superClass="_fyA6oE8JEeqjxfCYnCLWQw" subClass="_f0GlUE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aPP1oE8JEeqjxfCYnCLWQw"/>
+    <bendpoints xmi:id="_g2BVUE8JEeqjxfCYnCLWQw" sourceY="-319" targetX="442" targetY="32"/>
+    <bendpoints xmi:id="_g2BVUU8JEeqjxfCYnCLWQw" sourceX="-442" sourceY="-319" targetY="32"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_fz4i4E8JEeqjxfCYnCLWQw" source="_f0GlUE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aRM9dE8JEeqjxfCYnCLWQw"/>
+    <stereotypes xmi:id="_f0EwIk8JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aRNkgE8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_f0EJEE8JEeqjxfCYnCLWQw" text=""/>
+    <sourceRole xmi:id="_f0EwIE8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aRM9dU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f0FXMk8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f0FXMU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_f0EwIU8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQVawE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f0F-QU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f0F-QE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_fz-pgE8JEeqjxfCYnCLWQw" sourceAnchor="0.0,97.0" targetAnchor="85.0,145.0" target="_f81qkE8JEeqjxfCYnCLWQw" source="_f0GlUE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aRNkgU8JEeqjxfCYnCLWQw"/>
+    <bendpoints xmi:id="_g2AuQU8JEeqjxfCYnCLWQw" sourceX="-994" targetY="240"/>
+    <stereotypes xmi:id="_f0FXME8JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aRNkg08JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_f0EwI08JEeqjxfCYnCLWQw" text="">
+      <visualProperties xmi:id="_g2G04E8JEeqjxfCYnCLWQw" position="109.0,-8.499999999999886"/>
+    </nameVisual>
+    <sourceRole xmi:id="_f0EwJE8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aRNkgk8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2GN0U8JEeqjxfCYnCLWQw" position="-19.5,3.5"/>
+      <visibility xmi:id="_f0F-Q08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f0F-Qk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_f0EwJU8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="itemService" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQVawk8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2G04U8JEeqjxfCYnCLWQw" position="5.0,191.4999999999999"/>
+      <visibility xmi:id="_f0F-RU8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f0F-RE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_f0ZgQE8JEeqjxfCYnCLWQw" sourceAnchor="199.0,0.0" targetAnchor="69.0,144.0" dashed="true" superClass="_fyA6oE8JEeqjxfCYnCLWQw" subClass="_f09g8E8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aPS48E8JEeqjxfCYnCLWQw"/>
+    <bendpoints xmi:id="_g2B8YE8JEeqjxfCYnCLWQw" sourceY="-16" targetX="-234" targetY="32"/>
+    <bendpoints xmi:id="_g2B8YU8JEeqjxfCYnCLWQw" sourceX="234" sourceY="-16" targetY="32"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_f0sbME8JEeqjxfCYnCLWQw" source="_f09g8E8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aROLkE8JEeqjxfCYnCLWQw"/>
+    <stereotypes xmi:id="_f06do08JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aROLkk8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_f06doE8JEeqjxfCYnCLWQw" text=""/>
+    <sourceRole xmi:id="_f06doU8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aROLkU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f07EtE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f07Es08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_f06dok8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQWo4E8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f07rwU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f07rwE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_f02MME8JEeqjxfCYnCLWQw" sourceAnchor="0.0,88.0" targetAnchor="144.0,73.0" target="_f81qkE8JEeqjxfCYnCLWQw" source="_f09g8E8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aROLk08JEeqjxfCYnCLWQw"/>
+    <stereotypes xmi:id="_f07Esk8JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aROyoE8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_f06dpE8JEeqjxfCYnCLWQw" text="">
+      <visualProperties xmi:id="_g2IDAE8JEeqjxfCYnCLWQw" position="17.0,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_f07EsE8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aROLlE8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2Hb8E8JEeqjxfCYnCLWQw" position="-20.0,3.5"/>
+      <visibility xmi:id="_f0854U8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f0854E8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_f07EsU8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="orderServices" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQWo4k8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2IDAU8JEeqjxfCYnCLWQw" position="5.0,-48.5"/>
+      <visibility xmi:id="_f085408JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f0854k8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_f5A6gE8JEeqjxfCYnCLWQw" source="_f5c_YE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aROyoU8JEeqjxfCYnCLWQw"/>
+    <stereotypes xmi:id="_f5bxQ08JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aROyo08JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_f5bxQE8JEeqjxfCYnCLWQw" text=""/>
+    <sourceRole xmi:id="_f5bxQU8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aROyok8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f5cYUU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f5cYUE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_f5bxQk8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQaTQk8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f5cYU08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f5cYUk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_f57ggE8JEeqjxfCYnCLWQw" source="_f6W-UE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aROypE8JEeqjxfCYnCLWQw"/>
+    <stereotypes xmi:id="_f6WXQE8JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aRPZsE8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_f6VwME8JEeqjxfCYnCLWQw" text=""/>
+    <sourceRole xmi:id="_f6VwMU8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aROypU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f6WXQk8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f6WXQU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_f6VwMk8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQbhYU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f6WXRE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f6WXQ08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_f62tkE8JEeqjxfCYnCLWQw" source="_f7g04E8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aRPZsU8JEeqjxfCYnCLWQw"/>
+    <stereotypes xmi:id="_f7gN0E8JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aRQAwE8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_f7fmwE8JEeqjxfCYnCLWQw" text=""/>
+    <sourceRole xmi:id="_f7fmwU8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aRPZsk8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f7gN0k8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f7gN0U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_f7fmwk8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQdWkE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f7gN1E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f7gN008JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_f74oUE8JEeqjxfCYnCLWQw" source="_f8Y-oE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aRQAwU8JEeqjxfCYnCLWQw"/>
+    <stereotypes xmi:id="_f8Xwg08JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aRQAw08JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_f8XwgE8JEeqjxfCYnCLWQw" text=""/>
+    <sourceRole xmi:id="_f8XwgU8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aRQAwk8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f8YXkU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f8YXkE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_f8Xwgk8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQd9ok8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f8YXk08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f8YXkk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_f9xesE8JEeqjxfCYnCLWQw" sourceAnchor="189.0,0.0" targetAnchor="72.0,145.0" dashed="true" superClass="_f81qkE8JEeqjxfCYnCLWQw" subClass="_f-2cwE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aPj-sE8JEeqjxfCYnCLWQw"/>
+    <bendpoints xmi:id="_g2Dxkk8JEeqjxfCYnCLWQw" sourceY="-195" targetX="195" targetY="305"/>
+    <bendpoints xmi:id="_g2Dxk08JEeqjxfCYnCLWQw" sourceX="-195" sourceY="-195" targetY="305"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_f-i6wE8JEeqjxfCYnCLWQw" sourceAnchor="176.0,0.0" targetAnchor="114.0,145.0" target="_gGR6cE8JEeqjxfCYnCLWQw" source="_f-2cwE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aRQn0U8JEeqjxfCYnCLWQw"/>
+    <bendpoints xmi:id="_g2DxkE8JEeqjxfCYnCLWQw" sourceY="-13" targetX="715" targetY="19"/>
+    <bendpoints xmi:id="_g2DxkU8JEeqjxfCYnCLWQw" sourceX="-715" sourceY="-13" targetY="19"/>
+    <stereotypes xmi:id="_f-i6wU8JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aRRO4E8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_f-i6wk8JEeqjxfCYnCLWQw" text="">
+      <visualProperties xmi:id="_g2JRIE8JEeqjxfCYnCLWQw" position="79.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_f-i6w08JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aRQn0k8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2IqEE8JEeqjxfCYnCLWQw" position="-196.0,-9.5"/>
+      <visibility xmi:id="_f-i6xE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f-i6xU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_f-i6xk8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="customerDao" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQkEQE8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2JRIU8JEeqjxfCYnCLWQw" position="66.5,-29.499999999999886"/>
+      <visibility xmi:id="_f-i6x08JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f-i6yE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_f_brkE8JEeqjxfCYnCLWQw" sourceAnchor="151.0,0.0" targetAnchor="72.0,145.0" dashed="true" superClass="_f81qkE8JEeqjxfCYnCLWQw" subClass="_gAXfsE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aPnpEE8JEeqjxfCYnCLWQw"/>
+    <bendpoints xmi:id="_g2EYoE8JEeqjxfCYnCLWQw" sourceY="-26" targetX="-1014" targetY="305"/>
+    <bendpoints xmi:id="_g2EYoU8JEeqjxfCYnCLWQw" sourceX="1014" sourceY="-26" targetY="305"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gAATUE8JEeqjxfCYnCLWQw" sourceAnchor="301.0,65.0" targetAnchor="0.0,73.0" target="_gGR6cE8JEeqjxfCYnCLWQw" source="_gAXfsE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aRRO4U8JEeqjxfCYnCLWQw"/>
+    <stereotypes xmi:id="_gAWRk08JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aRRO408JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gAWRkE8JEeqjxfCYnCLWQw" text="">
+      <visualProperties xmi:id="_g2J4ME8JEeqjxfCYnCLWQw" position="-45.0,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gAWRkU8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aRRO4k8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2JRIk8JEeqjxfCYnCLWQw" position="5.5,-48.5"/>
+      <visibility xmi:id="_gAW4oU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gAW4oE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gAWRkk8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="itemsDao" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQkrUU8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2J4MU8JEeqjxfCYnCLWQw" position="-69.5,3.5"/>
+      <stereotypes xmi:id="_G-fu8E8PEeqjxfCYnCLWQw" name="Generics"/>
+      <stereotypes xmi:id="_G-hkIE8PEeqjxfCYnCLWQw" name="LegacyStyledElement"/>
+      <visibility xmi:id="_gAW4o08JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_gAW4ok8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_gA8ugE8JEeqjxfCYnCLWQw" sourceAnchor="201.0,0.0" targetAnchor="72.0,145.0" dashed="true" superClass="_f81qkE8JEeqjxfCYnCLWQw" subClass="_gB8NAU8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aPqsYE8JEeqjxfCYnCLWQw"/>
+    <bendpoints xmi:id="_g2EYok8JEeqjxfCYnCLWQw" sourceY="-26" targetX="-26" targetY="305"/>
+    <bendpoints xmi:id="_g2EYo08JEeqjxfCYnCLWQw" sourceX="26" sourceY="-26" targetY="305"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gBlAoE8JEeqjxfCYnCLWQw" sourceAnchor="0.0,65.0" targetAnchor="175.0,73.0" target="_gGR6cE8JEeqjxfCYnCLWQw" source="_gB8NAU8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aRR18E8JEeqjxfCYnCLWQw"/>
+    <stereotypes xmi:id="_gB7l8U8JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aRR18k8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gB6-4E8JEeqjxfCYnCLWQw" text="">
+      <visualProperties xmi:id="_g2LGUE8JEeqjxfCYnCLWQw" position="19.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gB6-4U8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aRR18U8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2KfQE8JEeqjxfCYnCLWQw" position="-19.5,3.5"/>
+      <visibility xmi:id="_gB7l808JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gB7l8k8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gB7l8E8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="OrderItemsDao" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQl5cE8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2LGUU8JEeqjxfCYnCLWQw" position="5.5,-48.5"/>
+      <visibility xmi:id="_gB7l9U8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_gB7l9E8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_gCkfIE8JEeqjxfCYnCLWQw" sourceAnchor="157.0,0.0" targetAnchor="72.0,145.0" dashed="true" superClass="_f81qkE8JEeqjxfCYnCLWQw" subClass="_gDkksE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aPtIoE8JEeqjxfCYnCLWQw"/>
+    <bendpoints xmi:id="_g2E_sE8JEeqjxfCYnCLWQw" sourceY="-351" targetX="611" targetY="305"/>
+    <bendpoints xmi:id="_g2E_sU8JEeqjxfCYnCLWQw" sourceX="-611" sourceY="-351" targetY="305"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gDMxQE8JEeqjxfCYnCLWQw" sourceAnchor="0.0,65.0" targetAnchor="101.0,145.0" target="_gGR6cE8JEeqjxfCYnCLWQw" source="_gDkksE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aRR1808JEeqjxfCYnCLWQw"/>
+    <bendpoints xmi:id="_g2EYpE8JEeqjxfCYnCLWQw" sourceX="-1000" targetY="253"/>
+    <stereotypes xmi:id="_gDjWk08JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aRSdAE8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gDjWkE8JEeqjxfCYnCLWQw" text="">
+      <visualProperties xmi:id="_g2MUcE8JEeqjxfCYnCLWQw" position="111.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gDjWkU8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aRR19E8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2LtYE8JEeqjxfCYnCLWQw" position="-20.0,3.5"/>
+      <visibility xmi:id="_gDj9oU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gDj9oE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gDjWkk8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="OrderDao" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQmggk8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2MUcU8JEeqjxfCYnCLWQw" position="5.0,204.50000000000023"/>
+      <visibility xmi:id="_gDj9o08JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_gDj9ok8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_gEM20E8JEeqjxfCYnCLWQw" sourceAnchor="233.0,0.0" targetAnchor="88.0,145.0" dashed="true" superClass="_gGR6cE8JEeqjxfCYnCLWQw" subClass="_f5c_YE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aPXxcE8JEeqjxfCYnCLWQw"/>
+    <bendpoints xmi:id="_g2CjcE8JEeqjxfCYnCLWQw" sourceY="-20" targetX="-481" targetY="318"/>
+    <bendpoints xmi:id="_g2CjcU8JEeqjxfCYnCLWQw" sourceX="481" sourceY="-20" targetY="318"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_gEl4YE8JEeqjxfCYnCLWQw" sourceAnchor="200.0,0.0" targetAnchor="88.0,145.0" dashed="true" superClass="_gGR6cE8JEeqjxfCYnCLWQw" subClass="_f6W-UE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aPaNsE8JEeqjxfCYnCLWQw"/>
+    <bendpoints xmi:id="_g2Cjck8JEeqjxfCYnCLWQw" sourceY="-33" targetX="-26" targetY="318"/>
+    <bendpoints xmi:id="_g2DKgE8JEeqjxfCYnCLWQw" sourceX="26" sourceY="-33" targetY="318"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_gE1I8E8JEeqjxfCYnCLWQw" sourceAnchor="206.0,0.0" targetAnchor="88.0,145.0" dashed="true" superClass="_gGR6cE8JEeqjxfCYnCLWQw" subClass="_f7g04E8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aPcp8E8JEeqjxfCYnCLWQw"/>
+    <bendpoints xmi:id="_g2DKgU8JEeqjxfCYnCLWQw" sourceY="-20" targetX="910" targetY="318"/>
+    <bendpoints xmi:id="_g2DKgk8JEeqjxfCYnCLWQw" sourceX="-910" sourceY="-20" targetY="318"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_gE1I8U8JEeqjxfCYnCLWQw" sourceAnchor="240.0,0.0" targetAnchor="88.0,145.0" dashed="true" superClass="_gGR6cE8JEeqjxfCYnCLWQw" subClass="_f8Y-oE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aPefIE8JEeqjxfCYnCLWQw"/>
+    <bendpoints xmi:id="_g2DKg08JEeqjxfCYnCLWQw" sourceY="-17" targetX="442" targetY="318"/>
+    <bendpoints xmi:id="_g2DKhE8JEeqjxfCYnCLWQw" sourceX="-442" sourceY="-17" targetY="318"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gHJdIE8JEeqjxfCYnCLWQw" source="_gH315E8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aRLIQU8JEeqjxfCYnCLWQw"/>
+    <stereotypes xmi:id="_gH3O008JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aRLvUE8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gH3O0E8JEeqjxfCYnCLWQw" text=""/>
+    <sourceRole xmi:id="_gH3O0U8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aRLIQk8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gH314U8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gH314E8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gH3O0k8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQTlkE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gH31408JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gH314k8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gIoq4E8JEeqjxfCYnCLWQw" source="_gJp-kU8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aRLvUU8JEeqjxfCYnCLWQw"/>
+    <stereotypes xmi:id="_gJpXg08JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aRMWYE8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gJpXgE8JEeqjxfCYnCLWQw" text=""/>
+    <sourceRole xmi:id="_gJpXgU8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aRLvUk8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gJpXhU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gJpXhE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gJpXgk8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQTlkk8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gJp-kE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gJpXhk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gMQmoE8JEeqjxfCYnCLWQw" sourceAnchor="0.0,77.0" targetAnchor="378.0,65.0" target="_f-2cwE8JEeqjxfCYnCLWQw" source="_gNNo4E8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aRSdAU8JEeqjxfCYnCLWQw"/>
+    <stereotypes xmi:id="_gMw88U8JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aRTEEE8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gMwV4E8JEeqjxfCYnCLWQw" text="">
+      <visualProperties xmi:id="_g2M7gU8JEeqjxfCYnCLWQw" position="26.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gMwV4U8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aRSdAk8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2M7gE8JEeqjxfCYnCLWQw" position="-19.5,3.5"/>
+      <visibility xmi:id="_gMxkAU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gMxkAE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gMw88E8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="customerServices" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQnuoU8JEeqjxfCYnCLWQw"/>
+      <visualProperties xmi:id="_g2M7gk8JEeqjxfCYnCLWQw" position="5.0,-48.5"/>
+      <visibility xmi:id="_gMxkA08JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_gMxkAk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gMzZME8JEeqjxfCYnCLWQw" source="_gNNo4E8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aRTEEU8JEeqjxfCYnCLWQw"/>
+    <stereotypes xmi:id="_gMzZMU8JEeqjxfCYnCLWQw" name="Reference">
+      <modelElement href="IMS-Project-Maven2.uml#_aRTEE08JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gMzZMk8JEeqjxfCYnCLWQw" text=""/>
+    <sourceRole xmi:id="_gMzZM08JEeqjxfCYnCLWQw" aggregationKind="NONE" name="">
+      <modelElement href="IMS-Project-Maven2.uml#_aRTEEk8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gMzZNE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gMzZNU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gMzZNk8JEeqjxfCYnCLWQw" aggregationKind="NONE" name="customerController" navigable="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQoVsk8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gMzZN08JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_gMzZOE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_fxxDAE8JEeqjxfCYnCLWQw" sourceConnectionVisual="_fx60AE8JEeqjxfCYnCLWQw" text="Create, Read, Update and Delete controller. Takes in inputs for each action&#xD;&#xA;to be sent to a service class" item="_fyA6oE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aRDMcE8JEeqjxfCYnCLWQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fvXPQE8JEeqjxfCYnCLWQw" name="Utils">
+    <modelElement href="IMS-Project-Maven2.uml#_aLCEAE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_fvXPQU8JEeqjxfCYnCLWQw" position="386.0,1987.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fvXPQk8JEeqjxfCYnCLWQw" label="+"/>
+    <operations xmi:id="_fvXPQ08JEeqjxfCYnCLWQw" name="getInput" staticOperation="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aLCrEE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fvXPRE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fvXPRU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fvXPRk8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aLCrEU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_fvXPR08JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fwTDYE8JEeqjxfCYnCLWQw" name="Customer">
+    <modelElement href="IMS-Project-Maven2.uml#_aKFBwE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_fwTDYU8JEeqjxfCYnCLWQw" position="839.0,1763.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fwTDYk8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_fwTDY08JEeqjxfCYnCLWQw" name="id">
+      <modelElement href="IMS-Project-Maven2.uml#_aQXP8k8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fwTDZE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fwTDZU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_fwTDZk8JEeqjxfCYnCLWQw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fwTDZ08JEeqjxfCYnCLWQw" name="name">
+      <modelElement href="IMS-Project-Maven2.uml#_aQX3AE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fwTDaE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fwTDaU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_fwTDak8JEeqjxfCYnCLWQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fwTDa08JEeqjxfCYnCLWQw" name="surname">
+      <modelElement href="IMS-Project-Maven2.uml#_aQX3AU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fwTDbE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fwTDbU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_fwTDbk8JEeqjxfCYnCLWQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_fwTDb08JEeqjxfCYnCLWQw" name="Customer">
+      <modelElement href="IMS-Project-Maven2.uml#_aKFo0E8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_fwTDcE8JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_fwTDcU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fwTDck8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fwTDc08JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKGP5E8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_fwTDdE8JEeqjxfCYnCLWQw" name="Customer">
+          <modelElement href="IMS-Project-Maven2.uml#_aKFBwE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fwTDdU8JEeqjxfCYnCLWQw" name="id">
+        <modelElement href="IMS-Project-Maven2.uml#_aKFo0U8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fwTDdk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fwTDd08JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fwTDeE8JEeqjxfCYnCLWQw" name="name">
+        <modelElement href="IMS-Project-Maven2.uml#_aKGP4E8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fwTDeU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fwTDek8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fwTDe08JEeqjxfCYnCLWQw" name="surname">
+        <modelElement href="IMS-Project-Maven2.uml#_aKGP4U8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fwTDfE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fwTDfU8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fwTDfk8JEeqjxfCYnCLWQw" name="Customer">
+      <modelElement href="IMS-Project-Maven2.uml#_aKGP5U8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_fwTDf08JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_fwTDgE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fwTDgU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fwTDgk8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKG29E8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_fwTDg08JEeqjxfCYnCLWQw" name="Customer">
+          <modelElement href="IMS-Project-Maven2.uml#_aKFBwE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fwTDhE8JEeqjxfCYnCLWQw" name="name">
+        <modelElement href="IMS-Project-Maven2.uml#_aKG28E8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fwTDhU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fwTDhk8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fwTDh08JEeqjxfCYnCLWQw" name="surname">
+        <modelElement href="IMS-Project-Maven2.uml#_aKG28U8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fwTDiE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fwTDiU8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fwq20E8JEeqjxfCYnCLWQw" name="Item">
+    <modelElement href="IMS-Project-Maven2.uml#_aKHeAE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_fwq20U8JEeqjxfCYnCLWQw" position="443.0,1754.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fwq20k8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_fwq2008JEeqjxfCYnCLWQw" name="id">
+      <modelElement href="IMS-Project-Maven2.uml#_aQYeEE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fwq21E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fwq21U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_fwq21k8JEeqjxfCYnCLWQw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fwq2108JEeqjxfCYnCLWQw" name="name">
+      <modelElement href="IMS-Project-Maven2.uml#_aQYeEU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fwq22E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fwq22U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_fwq22k8JEeqjxfCYnCLWQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fwq2208JEeqjxfCYnCLWQw" name="value">
+      <modelElement href="IMS-Project-Maven2.uml#_aQYeEk8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fwq23E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fwq23U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_fwq23k8JEeqjxfCYnCLWQw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_fwq2308JEeqjxfCYnCLWQw" name="Item">
+      <modelElement href="IMS-Project-Maven2.uml#_aKIFEE8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_fwq24E8JEeqjxfCYnCLWQw" keyword="create"/>
+      <stereotypes xmi:id="_fwq24U8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aKIsJE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_fwq24k8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fwq2408JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fwq25E8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKIsJU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_fwq25U8JEeqjxfCYnCLWQw" name="Item">
+          <modelElement href="IMS-Project-Maven2.uml#_aKHeAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fwq25k8JEeqjxfCYnCLWQw" name="Id">
+        <modelElement href="IMS-Project-Maven2.uml#_aKIFEU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fwq2508JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fwq26E8JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fwq26U8JEeqjxfCYnCLWQw" name="name">
+        <modelElement href="IMS-Project-Maven2.uml#_aKIsIE8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fwq26k8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fwq2608JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fwq27E8JEeqjxfCYnCLWQw" name="value">
+        <modelElement href="IMS-Project-Maven2.uml#_aKIsIU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fwq27U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fwq27k8JEeqjxfCYnCLWQw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fwq2708JEeqjxfCYnCLWQw" name="Item">
+      <modelElement href="IMS-Project-Maven2.uml#_aKJTME8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_fwq28E8JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_fwq28U8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fwq28k8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fwq2808JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKJ6Qk8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_fwq29E8JEeqjxfCYnCLWQw" name="Item">
+          <modelElement href="IMS-Project-Maven2.uml#_aKHeAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fwq29U8JEeqjxfCYnCLWQw" name="name">
+        <modelElement href="IMS-Project-Maven2.uml#_aKJTMU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fwq29k8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fwq2908JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fwq2-E8JEeqjxfCYnCLWQw" name="value">
+        <modelElement href="IMS-Project-Maven2.uml#_aKJTMk8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fwq2-U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fwq2-k8JEeqjxfCYnCLWQw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fwq2-08JEeqjxfCYnCLWQw" name="add">
+      <modelElement href="IMS-Project-Maven2.uml#_aPVVME8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_fwq2_E8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aPVVMk8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_fwq2_U8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fwq2_k8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_fwq2_08JEeqjxfCYnCLWQw" name="item">
+        <modelElement href="IMS-Project-Maven2.uml#_aPVVMU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fwq3AE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fwq3AU8JEeqjxfCYnCLWQw" name="Item">
+          <modelElement href="IMS-Project-Maven2.uml#_aKHeAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fw_m8E8JEeqjxfCYnCLWQw" name="Order">
+    <modelElement href="IMS-Project-Maven2.uml#_aKKhUE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_fw_m8U8JEeqjxfCYnCLWQw" position="1575.0,1507.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fw_m8k8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_fw_m808JEeqjxfCYnCLWQw" name="id">
+      <modelElement href="IMS-Project-Maven2.uml#_aQZFIE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fw_m9E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fw_m9U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_fw_m9k8JEeqjxfCYnCLWQw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fw_m908JEeqjxfCYnCLWQw" name="customerId">
+      <modelElement href="IMS-Project-Maven2.uml#_aQZFIU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fw_m-E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fw_m-U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_fw_m-k8JEeqjxfCYnCLWQw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fw_m-08JEeqjxfCYnCLWQw" name="value">
+      <modelElement href="IMS-Project-Maven2.uml#_aQZsME8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fw_m_E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fw_m_U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_fw_m_k8JEeqjxfCYnCLWQw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_fw_m_08JEeqjxfCYnCLWQw" name="Order">
+      <modelElement href="IMS-Project-Maven2.uml#_aKLvcE8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_fw_nAE8JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_fw_nAU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fw_nAk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fw_nA08JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKLvdk8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_fw_nBE8JEeqjxfCYnCLWQw" name="Order">
+          <modelElement href="IMS-Project-Maven2.uml#_aKKhUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fw_nBU8JEeqjxfCYnCLWQw" name="id">
+        <modelElement href="IMS-Project-Maven2.uml#_aKLvcU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fw_nBk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fw_nB08JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fw_nCE8JEeqjxfCYnCLWQw" name="customerId">
+        <modelElement href="IMS-Project-Maven2.uml#_aKLvck8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fw_nCU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fw_nCk8JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fw_nC08JEeqjxfCYnCLWQw" name="value">
+        <modelElement href="IMS-Project-Maven2.uml#_aKLvc08JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fw_nDE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fw_nDU8JEeqjxfCYnCLWQw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fw_nDk8JEeqjxfCYnCLWQw" name="Order">
+      <modelElement href="IMS-Project-Maven2.uml#_aKMWgE8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_fw_nD08JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_fw_nEE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fw_nEU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fw_nEk8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKMWhU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_fw_nE08JEeqjxfCYnCLWQw" name="Order">
+          <modelElement href="IMS-Project-Maven2.uml#_aKKhUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fw_nFE8JEeqjxfCYnCLWQw" name="id">
+        <modelElement href="IMS-Project-Maven2.uml#_aKMWgU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fw_nFU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fw_nFk8JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fw_nF08JEeqjxfCYnCLWQw" name="value">
+        <modelElement href="IMS-Project-Maven2.uml#_aKMWgk8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fw_nGE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fw_nGU8JEeqjxfCYnCLWQw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fw_nGk8JEeqjxfCYnCLWQw" name="add">
+      <modelElement href="IMS-Project-Maven2.uml#_aPV8QE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fw_nG08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fw_nHE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_fw_nHU8JEeqjxfCYnCLWQw" name="orders">
+        <modelElement href="IMS-Project-Maven2.uml#_aPV8QU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fw_nHk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fw_nH08JEeqjxfCYnCLWQw" name="Order">
+          <modelElement href="IMS-Project-Maven2.uml#_aKKhUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fxZ2oE8JEeqjxfCYnCLWQw" name="OrderItems">
+    <modelElement href="IMS-Project-Maven2.uml#_aKNkoE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_fxZ2oU8JEeqjxfCYnCLWQw" position="1704.0,1760.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fxZ2ok8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_fxZ2o08JEeqjxfCYnCLWQw" name="itemId">
+      <modelElement href="IMS-Project-Maven2.uml#_aQZsMU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fxZ2pE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fxZ2pU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_fxZ2pk8JEeqjxfCYnCLWQw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fxZ2p08JEeqjxfCYnCLWQw" name="orderId">
+      <modelElement href="IMS-Project-Maven2.uml#_aQaTQE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fxZ2qE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fxZ2qU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_fxZ2qk8JEeqjxfCYnCLWQw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fxZ2q08JEeqjxfCYnCLWQw" name="quantity">
+      <modelElement href="IMS-Project-Maven2.uml#_aQaTQU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fxZ2rE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fxZ2rU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_fxZ2rk8JEeqjxfCYnCLWQw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_fyA6oE8JEeqjxfCYnCLWQw" comments="_fxxDAE8JEeqjxfCYnCLWQw" targetConnectionVisual="_fx60AE8JEeqjxfCYnCLWQw" name="CrudController" subclassedBy="_fyUcoE8JEeqjxfCYnCLWQw _fzh9kE8JEeqjxfCYnCLWQw _f0ZgQE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aJtOUE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_fyA6oU8JEeqjxfCYnCLWQw" position="1969.0,31.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_fyA6ok8JEeqjxfCYnCLWQw" name="Generics">
+      <modelElement href="IMS-Project-Maven2.uml#_aJt1YE8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <visibility xmi:id="_fyA6o08JEeqjxfCYnCLWQw" label="+"/>
+    <operations xmi:id="_fyA6pE8JEeqjxfCYnCLWQw" name="view">
+      <modelElement href="IMS-Project-Maven2.uml#_aJuccE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fyA6pU8JEeqjxfCYnCLWQw" label="~"/>
+      <cardinality xmi:id="_fyA6pk8JEeqjxfCYnCLWQw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_fyA6p08JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aJuccU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_fyA6qE8JEeqjxfCYnCLWQw" name="T">
+          <modelElement href="IMS-Project-Maven2.uml#_aP8ZME8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_fyA6qU8JEeqjxfCYnCLWQw" name="create">
+      <modelElement href="IMS-Project-Maven2.uml#_aJvDgE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fyA6qk8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fyA6q08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fyA6rE8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aP9AQU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_fyA6rU8JEeqjxfCYnCLWQw" name="T">
+          <modelElement href="IMS-Project-Maven2.uml#_aP8ZME8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_fyA6rk8JEeqjxfCYnCLWQw" name="update">
+      <modelElement href="IMS-Project-Maven2.uml#_aJvDgU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fyA6r08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fyA6sE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_fyA6sU8JEeqjxfCYnCLWQw" name="delete">
+      <modelElement href="IMS-Project-Maven2.uml#_aJvqkE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fyA6sk8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fyA6s08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fzEDgE8JEeqjxfCYnCLWQw" name="CustomerController" associationsOut="_fyrB8E8JEeqjxfCYnCLWQw _fzCOUE8JEeqjxfCYnCLWQw" generalizations="_fyUcoE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aJwRoE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_fzEDgU8JEeqjxfCYnCLWQw" position="1808.0,431.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fzEDgk8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_fzEDg08JEeqjxfCYnCLWQw" defaultValue="Logger.getLogger(CustomerController.class)" name="LOGGER" staticAttribute="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQUMoE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fzEDhE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fzEDhU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_fzEDhk8JEeqjxfCYnCLWQw" name="Logger">
+        <modelElement href="IMS-Project-Maven2.uml#_aO86sE8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fzEDh08JEeqjxfCYnCLWQw" name="customerService">
+      <modelElement href="IMS-Project-Maven2.uml#_aQUMok8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_fzEDiE8JEeqjxfCYnCLWQw" name="Generics">
+        <modelElement href="IMS-Project-Maven2.uml#_aQUzsE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fzEDiU8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQUzsU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_fzEDik8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_fzEDi08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_fzEDjE8JEeqjxfCYnCLWQw" name="CrudServices">
+        <modelElement href="IMS-Project-Maven2.uml#_aKxlUE8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_fzEDjU8JEeqjxfCYnCLWQw" name="getInput">
+      <modelElement href="IMS-Project-Maven2.uml#_aJxfwE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_fzEDjk8JEeqjxfCYnCLWQw" label="~"/>
+      <cardinality xmi:id="_fzEDj08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fzEDkE8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aJxfwU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_fzEDkU8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_fzEDkk8JEeqjxfCYnCLWQw" name="view">
+      <modelElement href="IMS-Project-Maven2.uml#_aJxfwk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_fzEDk08JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aJyG0k8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fzEDlE8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aJzU8E8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_fzEDlU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fzEDlk8JEeqjxfCYnCLWQw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_fzEDl08JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aJyG0E8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_fzEDmE8JEeqjxfCYnCLWQw" name="Customer">
+          <modelElement href="IMS-Project-Maven2.uml#_aKFBwE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_fzEDmU8JEeqjxfCYnCLWQw" name="create">
+      <modelElement href="IMS-Project-Maven2.uml#_aJzU8k8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_fzEDmk8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aJz8AE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fzEDm08JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aJz8AU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_fzEDnE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fzEDnU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fzEDnk8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPOngU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_fzEDn08JEeqjxfCYnCLWQw" name="Customer">
+          <modelElement href="IMS-Project-Maven2.uml#_aKFBwE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_fzEDoE8JEeqjxfCYnCLWQw" name="update">
+      <modelElement href="IMS-Project-Maven2.uml#_aJ0jEE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_fzEDoU8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aJ0jEU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fzEDok8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aJ1KIE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_fzEDo08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fzEDpE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_fzEDpU8JEeqjxfCYnCLWQw" name="delete">
+      <modelElement href="IMS-Project-Maven2.uml#_aJ1KIk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_fzEDpk8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aJ1KI08JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fzEDp08JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aJ1xME8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_fzEDqE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fzEDqU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_fzEDqk8JEeqjxfCYnCLWQw" name="CustomerController">
+      <modelElement href="IMS-Project-Maven2.uml#_aPOAcE8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_fzEDq08JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_fzEDrE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_fzEDrU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fzEDrk8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPOAdE8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_fzEDr08JEeqjxfCYnCLWQw" name="CustomerController">
+          <modelElement href="IMS-Project-Maven2.uml#_aJwRoE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fzEDsE8JEeqjxfCYnCLWQw" name="customerService">
+        <modelElement href="IMS-Project-Maven2.uml#_aPOAcU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_fzEDsU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_fzEDsk8JEeqjxfCYnCLWQw" name="CrudServices">
+          <modelElement href="IMS-Project-Maven2.uml#_aKxlUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_f0GlUE8JEeqjxfCYnCLWQw" name="ItemController" associationsOut="_fz4i4E8JEeqjxfCYnCLWQw _fz-pgE8JEeqjxfCYnCLWQw" generalizations="_fzh9kE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aJ3mYE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_f0HMYE8JEeqjxfCYnCLWQw" position="2291.0,526.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_f0HMYU8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_f0HMYk8JEeqjxfCYnCLWQw" defaultValue="Logger.getLogger(ItemController.class)" name="LOGGER" staticAttribute="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQVawE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f0HMY08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f0HMZE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f0HMZU8JEeqjxfCYnCLWQw" name="Logger">
+        <modelElement href="IMS-Project-Maven2.uml#_aO86sE8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f0HMZk8JEeqjxfCYnCLWQw" name="itemService">
+      <modelElement href="IMS-Project-Maven2.uml#_aQVawk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f0HMZ08JEeqjxfCYnCLWQw" name="Generics">
+        <modelElement href="IMS-Project-Maven2.uml#_aQWB0E8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f0HMaE8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQWB0U8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f0HMaU8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f0HMak8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f0HMa08JEeqjxfCYnCLWQw" name="CrudServices">
+        <modelElement href="IMS-Project-Maven2.uml#_aKxlUE8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_f0HMbE8JEeqjxfCYnCLWQw" name="getInput">
+      <modelElement href="IMS-Project-Maven2.uml#_aJ40gE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f0HMbU8JEeqjxfCYnCLWQw" label="~"/>
+      <cardinality xmi:id="_f0HMbk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f0HMb08JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aJ5bkE8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f0HMcE8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f0HMcU8JEeqjxfCYnCLWQw" name="view">
+      <modelElement href="IMS-Project-Maven2.uml#_aJ5bkU8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f0HMck8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aJ6CoE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f0HMc08JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aJ6CoU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f0HMdE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f0HMdU8JEeqjxfCYnCLWQw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_f0HMdk8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aJ5bkk8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f0HMd08JEeqjxfCYnCLWQw" name="Item">
+          <modelElement href="IMS-Project-Maven2.uml#_aKHeAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f0HMeE8JEeqjxfCYnCLWQw" name="create">
+      <modelElement href="IMS-Project-Maven2.uml#_aJ6psE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f0HMeU8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aJ6psU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f0HMek8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aJ7QwE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f0HMe08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f0HMfE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f0HMfU8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPRq0U8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f0HMfk8JEeqjxfCYnCLWQw" name="Item">
+          <modelElement href="IMS-Project-Maven2.uml#_aKHeAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f0HMf08JEeqjxfCYnCLWQw" name="update">
+      <modelElement href="IMS-Project-Maven2.uml#_aJ7Qwk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f0HMgE8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aJ730E8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f0HMgU8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aJ730U8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f0HMgk8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f0HMg08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_f0HMhE8JEeqjxfCYnCLWQw" name="delete">
+      <modelElement href="IMS-Project-Maven2.uml#_aJ73008JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f0HMhU8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aJ8e4E8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f0HMhk8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aJ8e4U8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f0HMh08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f0HMiE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_f0HMiU8JEeqjxfCYnCLWQw" name="ItemController">
+      <modelElement href="IMS-Project-Maven2.uml#_aPQcsE8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_f0HMik8JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_f0HMi08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f0HMjE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f0HMjU8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPQctE8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f0HMjk8JEeqjxfCYnCLWQw" name="ItemController">
+          <modelElement href="IMS-Project-Maven2.uml#_aJ3mYE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f0HMj08JEeqjxfCYnCLWQw" name="itemService">
+        <modelElement href="IMS-Project-Maven2.uml#_aPQcsU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f0HMkE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f0HMkU8JEeqjxfCYnCLWQw" name="CrudServices">
+          <modelElement href="IMS-Project-Maven2.uml#_aKxlUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f0HMkk8JEeqjxfCYnCLWQw" name="createString">
+      <modelElement href="IMS-Project-Maven2.uml#_aPRq0k8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f0HMk08JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f0HMlE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f0HMlU8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPRq1E8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f0HMlk8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f0HMl08JEeqjxfCYnCLWQw" name="item">
+        <modelElement href="IMS-Project-Maven2.uml#_aPRq008JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f0HMmE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f0HMmU8JEeqjxfCYnCLWQw" name="Item">
+          <modelElement href="IMS-Project-Maven2.uml#_aKHeAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_f09g8E8JEeqjxfCYnCLWQw" name="OrderController" associationsOut="_f0sbME8JEeqjxfCYnCLWQw _f02MME8JEeqjxfCYnCLWQw" generalizations="_f0ZgQE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aJ-7IE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_f09g8U8JEeqjxfCYnCLWQw" position="1605.0,223.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_f09g8k8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_f09g808JEeqjxfCYnCLWQw" defaultValue="Logger.getLogger(OrderController.class)" name="LOGGER" staticAttribute="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQWo4E8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f09g9E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f09g9U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f09g9k8JEeqjxfCYnCLWQw" name="Logger">
+        <modelElement href="IMS-Project-Maven2.uml#_aO86sE8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f09g908JEeqjxfCYnCLWQw" name="orderServices">
+      <modelElement href="IMS-Project-Maven2.uml#_aQWo4k8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f09g-E8JEeqjxfCYnCLWQw" name="Generics">
+        <modelElement href="IMS-Project-Maven2.uml#_aQXP8E8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f09g-U8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQXP8U8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f09g-k8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f09g-08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f09g_E8JEeqjxfCYnCLWQw" name="CrudServices">
+        <modelElement href="IMS-Project-Maven2.uml#_aKxlUE8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_f09g_U8JEeqjxfCYnCLWQw" name="getInput">
+      <modelElement href="IMS-Project-Maven2.uml#_aJ_iME8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f09g_k8JEeqjxfCYnCLWQw" label="~"/>
+      <cardinality xmi:id="_f09g_08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f09hAE8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKAJQE8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f09hAU8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f09hAk8JEeqjxfCYnCLWQw" name="view">
+      <modelElement href="IMS-Project-Maven2.uml#_aKAJQU8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f09hA08JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aKAwUU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f09hBE8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aKAwUk8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f09hBU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f09hBk8JEeqjxfCYnCLWQw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_f09hB08JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKAJQk8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f09hCE8JEeqjxfCYnCLWQw" name="Order">
+          <modelElement href="IMS-Project-Maven2.uml#_aKKhUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f09hCU8JEeqjxfCYnCLWQw" name="create">
+      <modelElement href="IMS-Project-Maven2.uml#_aKBXYU8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f09hCk8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aKBXYk8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f09hC08JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aKB-cE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f09hDE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f09hDU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f09hDk8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPUHEU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f09hD08JEeqjxfCYnCLWQw" name="Order">
+          <modelElement href="IMS-Project-Maven2.uml#_aKKhUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f09hEE8JEeqjxfCYnCLWQw" name="update">
+      <modelElement href="IMS-Project-Maven2.uml#_aKB-ck8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f09hEU8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aKClgE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f09hEk8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aKClgU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f09hE08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f09hFE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_f09hFU8JEeqjxfCYnCLWQw" name="delete">
+      <modelElement href="IMS-Project-Maven2.uml#_aKClg08JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f09hFk8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aKDMkE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f09hF08JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aKDMkU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f09hGE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f09hGU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_f09hGk8JEeqjxfCYnCLWQw" name="OrderController">
+      <modelElement href="IMS-Project-Maven2.uml#_aPTgAE8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_f09hG08JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_f09hHE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f09hHU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f09hHk8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPTgBE8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f09hH08JEeqjxfCYnCLWQw" name="OrderController">
+          <modelElement href="IMS-Project-Maven2.uml#_aJ-7IE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f09hIE8JEeqjxfCYnCLWQw" name="orderServices">
+        <modelElement href="IMS-Project-Maven2.uml#_aPTgAU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f09hIU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f09hIk8JEeqjxfCYnCLWQw" name="CrudServices">
+          <modelElement href="IMS-Project-Maven2.uml#_aKxlUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_f1XwoE8JEeqjxfCYnCLWQw" name="Customer">
+    <modelElement href="IMS-Project-Maven2.uml#_aKhtsE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_f1XwoU8JEeqjxfCYnCLWQw" position="16.0,1501.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_f1Xwok8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_f1Xwo08JEeqjxfCYnCLWQw" name="Id">
+      <modelElement href="IMS-Project-Maven2.uml#_aQfy0E8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f1XwpE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f1XwpU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f1Xwpk8JEeqjxfCYnCLWQw" name="Long">
+        <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f1Xwp08JEeqjxfCYnCLWQw" name="firstName">
+      <modelElement href="IMS-Project-Maven2.uml#_aQfy0U8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f1XwqE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f1XwqU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f1Xwqk8JEeqjxfCYnCLWQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f1Xwq08JEeqjxfCYnCLWQw" name="surname">
+      <modelElement href="IMS-Project-Maven2.uml#_aQgZ4E8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f1XwrE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f1XwrU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f1Xwrk8JEeqjxfCYnCLWQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_f1Xwr08JEeqjxfCYnCLWQw" name="Customer">
+      <modelElement href="IMS-Project-Maven2.uml#_aKiUwE8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_f1XwsE8JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_f1XwsU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f1Xwsk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f1Xws08JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKiUxU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f1XwtE8JEeqjxfCYnCLWQw" name="Customer">
+          <modelElement href="IMS-Project-Maven2.uml#_aKhtsE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f1XwtU8JEeqjxfCYnCLWQw" name="firstName">
+        <modelElement href="IMS-Project-Maven2.uml#_aKiUwU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f1Xwtk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f1Xwt08JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_f1XwuE8JEeqjxfCYnCLWQw" name="surname">
+        <modelElement href="IMS-Project-Maven2.uml#_aKiUwk8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f1XwuU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f1Xwuk8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f1Xwu08JEeqjxfCYnCLWQw" name="toString">
+      <modelElement href="IMS-Project-Maven2.uml#_aKi70E8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f1XwvE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f1XwvU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f1Xwvk8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKi70U8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f1Xwv08JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f1XwwE8JEeqjxfCYnCLWQw" name="hashCode">
+      <modelElement href="IMS-Project-Maven2.uml#_aKi70k8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f1XwwU8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aKji4U8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f1Xwwk8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aKji4k8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f1Xww08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f1XwxE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f1XwxU8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKji4E8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f1Xwxk8JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f1YXsE8JEeqjxfCYnCLWQw" name="Customer">
+      <modelElement href="IMS-Project-Maven2.uml#_aQB4wU8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_f1YXsU8JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_f1YXsk8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f1YXs08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f1YXtE8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aQCf1U8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f1YXtU8JEeqjxfCYnCLWQw" name="Customer">
+          <modelElement href="IMS-Project-Maven2.uml#_aKhtsE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f1YXtk8JEeqjxfCYnCLWQw" name="Id">
+        <modelElement href="IMS-Project-Maven2.uml#_aQCf0E8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f1YXt08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f1YXuE8JEeqjxfCYnCLWQw" name="Long">
+          <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_f1YXuU8JEeqjxfCYnCLWQw" name="firstName">
+        <modelElement href="IMS-Project-Maven2.uml#_aQCf0U8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f1YXuk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f1YXu08JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_f1YXvE8JEeqjxfCYnCLWQw" name="surname">
+        <modelElement href="IMS-Project-Maven2.uml#_aQCf0k8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f1YXvU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f1YXvk8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f1YXv08JEeqjxfCYnCLWQw" name="equals">
+      <modelElement href="IMS-Project-Maven2.uml#_aQDG4U8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f1YXwE8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQDG5E8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f1YXwU8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aQDt8E8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f1YXwk8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f1YXw08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f1YXxE8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aQDG408JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f1YXxU8JEeqjxfCYnCLWQw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f1YXxk8JEeqjxfCYnCLWQw" name="obj">
+        <modelElement href="IMS-Project-Maven2.uml#_aQDG4k8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f1YXx08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f1YXyE8JEeqjxfCYnCLWQw" name="Object">
+          <modelElement href="IMS-Project-Maven2.uml#_aQCf1k8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_f26owE8JEeqjxfCYnCLWQw" name="Order">
+    <modelElement href="IMS-Project-Maven2.uml#_aKsFwE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_f26owU8JEeqjxfCYnCLWQw" position="1125.0,1507.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_f26owk8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_f26ow08JEeqjxfCYnCLWQw" name="Id">
+      <modelElement href="IMS-Project-Maven2.uml#_aQi2IE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f26oxE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f26oxU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f26oxk8JEeqjxfCYnCLWQw" name="Long">
+        <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f26ox08JEeqjxfCYnCLWQw" name="customerId">
+      <modelElement href="IMS-Project-Maven2.uml#_aQi2IU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f26oyE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f26oyU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f26oyk8JEeqjxfCYnCLWQw" name="Long">
+        <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f26oy08JEeqjxfCYnCLWQw" name="orderTotal">
+      <modelElement href="IMS-Project-Maven2.uml#_aQi2Ik8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f26ozE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f26ozU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f26ozk8JEeqjxfCYnCLWQw" name="Long">
+        <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_f26oz08JEeqjxfCYnCLWQw" name="hashCode">
+      <modelElement href="IMS-Project-Maven2.uml#_aKss0E8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f26o0E8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aKtT4E8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f26o0U8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aKtT4U8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f26o0k8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f26o008JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f26o1E8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKss0U8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f26o1U8JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f26o1k8JEeqjxfCYnCLWQw" name="Order">
+      <modelElement href="IMS-Project-Maven2.uml#_aQH_YE8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_f26o108JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_f26o2E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f26o2U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f26o2k8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aQH_Zk8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f26o208JEeqjxfCYnCLWQw" name="Order">
+          <modelElement href="IMS-Project-Maven2.uml#_aKsFwE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f26o3E8JEeqjxfCYnCLWQw" name="Id">
+        <modelElement href="IMS-Project-Maven2.uml#_aQH_YU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f26o3U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f26o3k8JEeqjxfCYnCLWQw" name="Long">
+          <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_f26o308JEeqjxfCYnCLWQw" name="customerId">
+        <modelElement href="IMS-Project-Maven2.uml#_aQH_Yk8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f26o4E8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f26o4U8JEeqjxfCYnCLWQw" name="Long">
+          <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_f26o4k8JEeqjxfCYnCLWQw" name="orderTotal">
+        <modelElement href="IMS-Project-Maven2.uml#_aQH_Y08JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f26o408JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f26o5E8JEeqjxfCYnCLWQw" name="Long">
+          <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f26o5U8JEeqjxfCYnCLWQw" name="equals">
+      <modelElement href="IMS-Project-Maven2.uml#_aQImcE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f26o5k8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQImc08JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f26o508JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aQImdE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f26o6E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f26o6U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f26o6k8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aQImck8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f26o608JEeqjxfCYnCLWQw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f26o7E8JEeqjxfCYnCLWQw" name="obj">
+        <modelElement href="IMS-Project-Maven2.uml#_aQImcU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f26o7U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f26o7k8JEeqjxfCYnCLWQw" name="Object">
+          <modelElement href="IMS-Project-Maven2.uml#_aQCf1k8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_f4BcAE8JEeqjxfCYnCLWQw" name="OrderItem">
+    <modelElement href="IMS-Project-Maven2.uml#_aKuiAE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_f4BcAU8JEeqjxfCYnCLWQw" position="1293.0,1763.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_f4BcAk8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_f4BcA08JEeqjxfCYnCLWQw" name="itemId">
+      <modelElement href="IMS-Project-Maven2.uml#_aQjdME8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f4BcBE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f4BcBU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f4BcBk8JEeqjxfCYnCLWQw" name="Long">
+        <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f4BcB08JEeqjxfCYnCLWQw" name="orderId">
+      <modelElement href="IMS-Project-Maven2.uml#_aQjdMU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f4BcCE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f4BcCU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f4BcCk8JEeqjxfCYnCLWQw" name="Long">
+        <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_f4BcC08JEeqjxfCYnCLWQw" name="hashCode">
+      <modelElement href="IMS-Project-Maven2.uml#_aKvwIE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f4BcDE8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aKwXME8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f4BcDU8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aKwXMU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f4BcDk8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f4BcD08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f4BcEE8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKvwIU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f4BcEU8JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f4BcEk8JEeqjxfCYnCLWQw" name="OrderItem">
+      <modelElement href="IMS-Project-Maven2.uml#_aQJ0kE8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_f4BcE08JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_f4BcFE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f4BcFU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f4BcFk8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aQJ0lU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f4BcF08JEeqjxfCYnCLWQw" name="OrderItem">
+          <modelElement href="IMS-Project-Maven2.uml#_aKuiAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f4BcGE8JEeqjxfCYnCLWQw" name="itemId">
+        <modelElement href="IMS-Project-Maven2.uml#_aQJ0kU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f4BcGU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f4BcGk8JEeqjxfCYnCLWQw" name="Long">
+          <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_f4BcG08JEeqjxfCYnCLWQw" name="orderId">
+        <modelElement href="IMS-Project-Maven2.uml#_aQJ0kk8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f4BcHE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f4BcHU8JEeqjxfCYnCLWQw" name="Long">
+          <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f4BcHk8JEeqjxfCYnCLWQw" name="equals">
+      <modelElement href="IMS-Project-Maven2.uml#_aQJ0lk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f4BcH08JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQKboU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f4BcIE8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aQKbok8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f4BcIU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f4BcIk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f4BcI08JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aQKboE8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f4BcJE8JEeqjxfCYnCLWQw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f4BcJU8JEeqjxfCYnCLWQw" name="obj">
+        <modelElement href="IMS-Project-Maven2.uml#_aQJ0l08JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f4BcJk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f4BcJ08JEeqjxfCYnCLWQw" name="Object">
+          <modelElement href="IMS-Project-Maven2.uml#_aQCf1k8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_f5c_YE8JEeqjxfCYnCLWQw" name="MySQLCustomers" associationsOut="_f5A6gE8JEeqjxfCYnCLWQw" generalizations="_gEM20E8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aKOywE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_f5c_YU8JEeqjxfCYnCLWQw" position="11.0,1189.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_f5c_Yk8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_f5c_Y08JEeqjxfCYnCLWQw" defaultValue="Logger.getLogger(MySQLCustomers.class)" name="LOGGER" staticAttribute="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQaTQk8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f5c_ZE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f5c_ZU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f5c_Zk8JEeqjxfCYnCLWQw" name="Logger">
+        <modelElement href="IMS-Project-Maven2.uml#_aO86sE8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f5c_Z08JEeqjxfCYnCLWQw" name="username">
+      <modelElement href="IMS-Project-Maven2.uml#_aQa6UE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f5c_aE8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQa6UU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f5c_aU8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f5c_ak8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f5c_a08JEeqjxfCYnCLWQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f5c_bE8JEeqjxfCYnCLWQw" name="password">
+      <modelElement href="IMS-Project-Maven2.uml#_aQa6Uk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f5c_bU8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQbhYE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f5c_bk8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f5c_b08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f5c_cE8JEeqjxfCYnCLWQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_f5c_cU8JEeqjxfCYnCLWQw" name="MySQLCustomers">
+      <modelElement href="IMS-Project-Maven2.uml#_aKQA4E8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_f5c_ck8JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_f5c_c08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f5c_dE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f5c_dU8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKQA5U8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f5c_dk8JEeqjxfCYnCLWQw" name="MySQLCustomers">
+          <modelElement href="IMS-Project-Maven2.uml#_aKOywE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f5c_d08JEeqjxfCYnCLWQw" name="username">
+        <modelElement href="IMS-Project-Maven2.uml#_aKQA4U8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f5c_eE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f5c_eU8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_f5c_ek8JEeqjxfCYnCLWQw" name="password">
+        <modelElement href="IMS-Project-Maven2.uml#_aKQA4k8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f5c_e08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f5c_fE8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f5c_fU8JEeqjxfCYnCLWQw" name="view">
+      <modelElement href="IMS-Project-Maven2.uml#_aKQn8E8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f5c_fk8JEeqjxfCYnCLWQw" name="Generics">
+        <modelElement href="IMS-Project-Maven2.uml#_aKRPAE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f5c_f08JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aKRPAU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f5c_gE8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aKR2EE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f5c_gU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f5c_gk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f5c_g08JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aP-1cE8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f5c_hE8JEeqjxfCYnCLWQw" name="ArrayList">
+          <modelElement href="IMS-Project-Maven2.uml#_aPBMIE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f5c_hU8JEeqjxfCYnCLWQw" name="delete">
+      <modelElement href="IMS-Project-Maven2.uml#_aKR2Ek8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f5c_hk8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aKSdIE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f5c_h08JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aKSdIU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f5c_iE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f5c_iU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_f5c_ik8JEeqjxfCYnCLWQw" name="Id">
+        <modelElement href="IMS-Project-Maven2.uml#_aKR2E08JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f5c_i08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f5c_jE8JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f5c_jU8JEeqjxfCYnCLWQw" name="create">
+      <modelElement href="IMS-Project-Maven2.uml#_aPYYgE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f5c_jk8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aPYYg08JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f5c_j08JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aPY_kE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f5c_kE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f5c_kU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f5c_kk8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPYYgk8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f5c_k08JEeqjxfCYnCLWQw" name="Customer">
+          <modelElement href="IMS-Project-Maven2.uml#_aKFBwE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f5c_lE8JEeqjxfCYnCLWQw" name="customer">
+        <modelElement href="IMS-Project-Maven2.uml#_aPYYgU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f5c_lU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f5c_lk8JEeqjxfCYnCLWQw" name="Customer">
+          <modelElement href="IMS-Project-Maven2.uml#_aKFBwE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f5c_l08JEeqjxfCYnCLWQw" name="update">
+      <modelElement href="IMS-Project-Maven2.uml#_aPY_kk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f5c_mE8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aPZmoE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f5c_mU8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aPZmoU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f5c_mk8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f5c_m08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_f5c_nE8JEeqjxfCYnCLWQw" name="customer">
+        <modelElement href="IMS-Project-Maven2.uml#_aPY_k08JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f5c_nU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f5c_nk8JEeqjxfCYnCLWQw" name="Customer">
+          <modelElement href="IMS-Project-Maven2.uml#_aKFBwE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_f6W-UE8JEeqjxfCYnCLWQw" name="MySQLItem" associationsOut="_f57ggE8JEeqjxfCYnCLWQw" generalizations="_gEl4YE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aKUSUE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_f6W-UU8JEeqjxfCYnCLWQw" position="499.0,1202.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_f6W-Uk8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_f6W-U08JEeqjxfCYnCLWQw" defaultValue="Logger.getLogger(MySQLCustomers.class)" name="LOGGER" staticAttribute="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQbhYU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f6W-VE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f6W-VU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f6W-Vk8JEeqjxfCYnCLWQw" name="Logger">
+        <modelElement href="IMS-Project-Maven2.uml#_aO86sE8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f6W-V08JEeqjxfCYnCLWQw" name="username">
+      <modelElement href="IMS-Project-Maven2.uml#_aQcIcE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f6W-WE8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQcIcU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f6W-WU8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f6W-Wk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f6W-W08JEeqjxfCYnCLWQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f6W-XE8JEeqjxfCYnCLWQw" name="password">
+      <modelElement href="IMS-Project-Maven2.uml#_aQcIck8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f6W-XU8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQcvgE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f6W-Xk8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f6W-X08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f6W-YE8JEeqjxfCYnCLWQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_f6W-YU8JEeqjxfCYnCLWQw" name="MySQLItem">
+      <modelElement href="IMS-Project-Maven2.uml#_aKU5YE8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_f6W-Yk8JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_f6W-Y08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f6W-ZE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f6W-ZU8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKU5ZU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f6W-Zk8JEeqjxfCYnCLWQw" name="MySQLItem">
+          <modelElement href="IMS-Project-Maven2.uml#_aKUSUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f6W-Z08JEeqjxfCYnCLWQw" name="username">
+        <modelElement href="IMS-Project-Maven2.uml#_aKU5YU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f6W-aE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f6W-aU8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_f6W-ak8JEeqjxfCYnCLWQw" name="password">
+        <modelElement href="IMS-Project-Maven2.uml#_aKU5Yk8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f6W-a08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f6W-bE8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f6W-bU8JEeqjxfCYnCLWQw" name="view">
+      <modelElement href="IMS-Project-Maven2.uml#_aKVgcE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f6W-bk8JEeqjxfCYnCLWQw" name="Generics">
+        <modelElement href="IMS-Project-Maven2.uml#_aKWHgE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f6W-b08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f6W-cE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f6W-cU8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aP_cgE8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f6W-ck8JEeqjxfCYnCLWQw" name="ArrayList">
+          <modelElement href="IMS-Project-Maven2.uml#_aPBMIE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f6W-c08JEeqjxfCYnCLWQw" name="delete">
+      <modelElement href="IMS-Project-Maven2.uml#_aKWHgU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f6W-dE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f6W-dU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_f6W-dk8JEeqjxfCYnCLWQw" name="id">
+        <modelElement href="IMS-Project-Maven2.uml#_aKWHgk8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f6W-d08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f6W-eE8JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f6W-eU8JEeqjxfCYnCLWQw" name="create">
+      <modelElement href="IMS-Project-Maven2.uml#_aPbb0E8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f6W-ek8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f6W-e08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f6W-fE8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPbb0k8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f6W-fU8JEeqjxfCYnCLWQw" name="Item">
+          <modelElement href="IMS-Project-Maven2.uml#_aKHeAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f6W-fk8JEeqjxfCYnCLWQw" name="item">
+        <modelElement href="IMS-Project-Maven2.uml#_aPbb0U8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f6W-f08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f6W-gE8JEeqjxfCYnCLWQw" name="Item">
+          <modelElement href="IMS-Project-Maven2.uml#_aKHeAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f6W-gU8JEeqjxfCYnCLWQw" name="update">
+      <modelElement href="IMS-Project-Maven2.uml#_aPbb008JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f6W-gk8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f6W-g08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_f6W-hE8JEeqjxfCYnCLWQw" name="item">
+        <modelElement href="IMS-Project-Maven2.uml#_aPbb1E8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f6W-hU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f6W-hk8JEeqjxfCYnCLWQw" name="Item">
+          <modelElement href="IMS-Project-Maven2.uml#_aKHeAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_f7g04E8JEeqjxfCYnCLWQw" name="MySQLOrder" associationsOut="_f62tkE8JEeqjxfCYnCLWQw" generalizations="_gE1I8E8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aKX8sE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_f7g04U8JEeqjxfCYnCLWQw" position="1429.0,1189.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_f7g04k8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_f7g0408JEeqjxfCYnCLWQw" defaultValue="Logger.getLogger(MySQLOrder.class)" name="LOGGER" staticAttribute="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQdWkE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f7g05E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f7g05U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f7g05k8JEeqjxfCYnCLWQw" name="Logger">
+        <modelElement href="IMS-Project-Maven2.uml#_aO86sE8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f7g0508JEeqjxfCYnCLWQw" name="username">
+      <modelElement href="IMS-Project-Maven2.uml#_aQdWkk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f7g06E8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQdWk08JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f7g06U8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f7g06k8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f7g0608JEeqjxfCYnCLWQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f7g07E8JEeqjxfCYnCLWQw" name="password">
+      <modelElement href="IMS-Project-Maven2.uml#_aQd9oE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f7g07U8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQd9oU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f7g07k8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f7g0708JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f7g08E8JEeqjxfCYnCLWQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_f7g08U8JEeqjxfCYnCLWQw" name="MySQLOrder">
+      <modelElement href="IMS-Project-Maven2.uml#_aKYjwE8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_f7g08k8JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_f7g0808JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f7g09E8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f7g09U8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKYjxU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f7g09k8JEeqjxfCYnCLWQw" name="MySQLOrder">
+          <modelElement href="IMS-Project-Maven2.uml#_aKX8sE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f7g0908JEeqjxfCYnCLWQw" name="username">
+        <modelElement href="IMS-Project-Maven2.uml#_aKYjwU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f7g0-E8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f7g0-U8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_f7g0-k8JEeqjxfCYnCLWQw" name="password">
+        <modelElement href="IMS-Project-Maven2.uml#_aKYjwk8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f7g0-08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f7g0_E8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f7g0_U8JEeqjxfCYnCLWQw" name="view">
+      <modelElement href="IMS-Project-Maven2.uml#_aKZK0E8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f7g0_k8JEeqjxfCYnCLWQw" name="Generics">
+        <modelElement href="IMS-Project-Maven2.uml#_aKZx4E8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f7g0_08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f7g1AE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f7g1AU8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aQADkE8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f7g1Ak8JEeqjxfCYnCLWQw" name="ArrayList">
+          <modelElement href="IMS-Project-Maven2.uml#_aPBMIE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f7g1A08JEeqjxfCYnCLWQw" name="delete">
+      <modelElement href="IMS-Project-Maven2.uml#_aKZx4U8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f7g1BE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f7g1BU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_f7g1Bk8JEeqjxfCYnCLWQw" name="Id">
+        <modelElement href="IMS-Project-Maven2.uml#_aKZx4k8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f7g1B08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f7g1CE8JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f7g1CU8JEeqjxfCYnCLWQw" name="create">
+      <modelElement href="IMS-Project-Maven2.uml#_aPdRAE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f7g1Ck8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f7g1C08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f7g1DE8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPdRAk8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f7g1DU8JEeqjxfCYnCLWQw" name="Order">
+          <modelElement href="IMS-Project-Maven2.uml#_aKKhUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f7g1Dk8JEeqjxfCYnCLWQw" name="order">
+        <modelElement href="IMS-Project-Maven2.uml#_aPdRAU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f7g1D08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f7g1EE8JEeqjxfCYnCLWQw" name="Order">
+          <modelElement href="IMS-Project-Maven2.uml#_aKKhUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f7g1EU8JEeqjxfCYnCLWQw" name="update">
+      <modelElement href="IMS-Project-Maven2.uml#_aPdRA08JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f7g1Ek8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f7g1E08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_f7g1FE8JEeqjxfCYnCLWQw" name="order">
+        <modelElement href="IMS-Project-Maven2.uml#_aPdRBE8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f7g1FU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f7g1Fk8JEeqjxfCYnCLWQw" name="Order">
+          <modelElement href="IMS-Project-Maven2.uml#_aKKhUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_f8Y-oE8JEeqjxfCYnCLWQw" name="MySQLOrder_Items" associationsOut="_f74oUE8JEeqjxfCYnCLWQw" generalizations="_gE1I8U8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aKbnEE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_f8Y-oU8JEeqjxfCYnCLWQw" position="927.0,1186.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_f8Y-ok8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_f8Y-o08JEeqjxfCYnCLWQw" defaultValue="Logger.getLogger(MySQLCustomers.class)" name="LOGGER" staticAttribute="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQd9ok8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f8Y-pE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f8Y-pU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f8Y-pk8JEeqjxfCYnCLWQw" name="Logger">
+        <modelElement href="IMS-Project-Maven2.uml#_aO86sE8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f8Y-p08JEeqjxfCYnCLWQw" name="username">
+      <modelElement href="IMS-Project-Maven2.uml#_aQeksU8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f8Y-qE8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQeksk8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f8Y-qU8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f8Y-qk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f8Y-q08JEeqjxfCYnCLWQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f8Y-rE8JEeqjxfCYnCLWQw" name="password">
+      <modelElement href="IMS-Project-Maven2.uml#_aQeks08JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f8Y-rU8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQfLwE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f8Y-rk8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f8Y-r08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f8Y-sE8JEeqjxfCYnCLWQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f8Y-sU8JEeqjxfCYnCLWQw" name="searchId" staticAttribute="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQfLwU8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f8Y-sk8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQfLwk8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f8Y-s08JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f8Y-tE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f8Y-tU8JEeqjxfCYnCLWQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_f8Y-tk8JEeqjxfCYnCLWQw" name="MySQLOrder_Items">
+      <modelElement href="IMS-Project-Maven2.uml#_aKcOIE8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_f8Y-t08JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_f8Y-uE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f8Y-uU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f8Y-uk8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKcOJU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f8Y-u08JEeqjxfCYnCLWQw" name="MySQLOrder_Items">
+          <modelElement href="IMS-Project-Maven2.uml#_aKbnEE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f8Y-vE8JEeqjxfCYnCLWQw" name="username">
+        <modelElement href="IMS-Project-Maven2.uml#_aKcOIU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f8Y-vU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f8Y-vk8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_f8Y-v08JEeqjxfCYnCLWQw" name="password">
+        <modelElement href="IMS-Project-Maven2.uml#_aKcOIk8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f8Y-wE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f8Y-wU8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f8Y-wk8JEeqjxfCYnCLWQw" name="getSearchId">
+      <modelElement href="IMS-Project-Maven2.uml#_aKc1ME8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f8Y-w08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f8Y-xE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f8Y-xU8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKc1MU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f8Y-xk8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f8Y-x08JEeqjxfCYnCLWQw" name="setSearchId">
+      <modelElement href="IMS-Project-Maven2.uml#_aKdcQE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f8Y-yE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f8Y-yU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_f8Y-yk8JEeqjxfCYnCLWQw" name="searchId">
+        <modelElement href="IMS-Project-Maven2.uml#_aKdcQU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f8Y-y08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f8Y-zE8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f8Y-zU8JEeqjxfCYnCLWQw" name="view">
+      <modelElement href="IMS-Project-Maven2.uml#_aKdcQk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f8Y-zk8JEeqjxfCYnCLWQw" name="Generics">
+        <modelElement href="IMS-Project-Maven2.uml#_aKeDUE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f8Y-z08JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aKeDUU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f8Y-0E8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aKeqYE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f8Y-0U8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f8Y-0k8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f8Y-008JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aQAqoE8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f8Y-1E8JEeqjxfCYnCLWQw" name="ArrayList">
+          <modelElement href="IMS-Project-Maven2.uml#_aPBMIE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f8Y-1U8JEeqjxfCYnCLWQw" name="delete">
+      <modelElement href="IMS-Project-Maven2.uml#_aKeqYk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f8Y-1k8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aKfRcU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f8Y-108JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aKf4gE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f8Y-2E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f8Y-2U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_f8Y-2k8JEeqjxfCYnCLWQw" name="oi">
+        <modelElement href="IMS-Project-Maven2.uml#_aKfRcE8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f8Y-208JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f8Y-3E8JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f8Y-3U8JEeqjxfCYnCLWQw" name="create">
+      <modelElement href="IMS-Project-Maven2.uml#_aPfGME8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f8Y-3k8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aPfGM08JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f8Y-308JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aPftQE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f8Y-4E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f8Y-4U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f8Y-4k8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPfGMk8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f8Y-408JEeqjxfCYnCLWQw" name="OrderItems">
+          <modelElement href="IMS-Project-Maven2.uml#_aKNkoE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f8Y-5E8JEeqjxfCYnCLWQw" name="oi">
+        <modelElement href="IMS-Project-Maven2.uml#_aPfGMU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f8Y-5U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f8Y-5k8JEeqjxfCYnCLWQw" name="OrderItems">
+          <modelElement href="IMS-Project-Maven2.uml#_aKNkoE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f8Y-508JEeqjxfCYnCLWQw" name="update">
+      <modelElement href="IMS-Project-Maven2.uml#_aPftQk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f8Y-6E8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aPftRE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f8Y-6U8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aPgUUE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f8Y-6k8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f8Y-608JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_f8Y-7E8JEeqjxfCYnCLWQw" name="oi">
+        <modelElement href="IMS-Project-Maven2.uml#_aPftQ08JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f8Y-7U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f8Y-7k8JEeqjxfCYnCLWQw" name="OrderItems">
+          <modelElement href="IMS-Project-Maven2.uml#_aKNkoE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_f81qkE8JEeqjxfCYnCLWQw" name="CrudServices" associationsIn="_fzCOUE8JEeqjxfCYnCLWQw _fz-pgE8JEeqjxfCYnCLWQw _f02MME8JEeqjxfCYnCLWQw" subclassedBy="_f9xesE8JEeqjxfCYnCLWQw _f_brkE8JEeqjxfCYnCLWQw _gA8ugE8JEeqjxfCYnCLWQw _gCkfIE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aKxlUE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_f81qkU8JEeqjxfCYnCLWQw" position="1212.0,238.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_f81qkk8JEeqjxfCYnCLWQw" name="Generics">
+      <modelElement href="IMS-Project-Maven2.uml#_aKyzcE8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <visibility xmi:id="_f81qk08JEeqjxfCYnCLWQw" label="+"/>
+    <operations xmi:id="_f81qlE8JEeqjxfCYnCLWQw" name="view">
+      <modelElement href="IMS-Project-Maven2.uml#_aKyzcU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f81qlU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f81qlk8JEeqjxfCYnCLWQw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_f81ql08JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKyzck8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f81qmE8JEeqjxfCYnCLWQw" name="T">
+          <modelElement href="IMS-Project-Maven2.uml#_aQLCsE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f81qmU8JEeqjxfCYnCLWQw" name="delete">
+      <modelElement href="IMS-Project-Maven2.uml#_aKzagE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f81qmk8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f81qm08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_f81qnE8JEeqjxfCYnCLWQw" name="id">
+        <modelElement href="IMS-Project-Maven2.uml#_aKzagU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f81qnU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f81qnk8JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f81qn08JEeqjxfCYnCLWQw" name="create">
+      <modelElement href="IMS-Project-Maven2.uml#_aQLpwE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f81qoE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f81qoU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f81qok8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aQLpwk8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f81qo08JEeqjxfCYnCLWQw" name="T">
+          <modelElement href="IMS-Project-Maven2.uml#_aQLCsE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f81qpE8JEeqjxfCYnCLWQw" name="t">
+        <modelElement href="IMS-Project-Maven2.uml#_aQLpwU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f81qpU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f81qpk8JEeqjxfCYnCLWQw" name="T">
+          <modelElement href="IMS-Project-Maven2.uml#_aQLCsE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f81qp08JEeqjxfCYnCLWQw" name="update">
+      <modelElement href="IMS-Project-Maven2.uml#_aQLpw08JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f81qqE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f81qqU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_f81qqk8JEeqjxfCYnCLWQw" name="t">
+        <modelElement href="IMS-Project-Maven2.uml#_aQLpxE8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f81qq08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f81qrE8JEeqjxfCYnCLWQw" name="T">
+          <modelElement href="IMS-Project-Maven2.uml#_aQLCsE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_f-2cwE8JEeqjxfCYnCLWQw" name="CustomerServices" associationsIn="_gMQmoE8JEeqjxfCYnCLWQw" associationsOut="_f-i6wE8JEeqjxfCYnCLWQw" generalizations="_f9xesE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aK0BkE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_f-2cwU8JEeqjxfCYnCLWQw" position="1290.0,883.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_f-2cwk8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_f-2cw08JEeqjxfCYnCLWQw" name="customerDao">
+      <modelElement href="IMS-Project-Maven2.uml#_aQkEQE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f-2cxE8JEeqjxfCYnCLWQw" name="Generics">
+        <modelElement href="IMS-Project-Maven2.uml#_aQkEQU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f-2cxU8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQkrUE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f-2cxk8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_f-2cx08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f-2cyE8JEeqjxfCYnCLWQw" name="DAO">
+        <modelElement href="IMS-Project-Maven2.uml#_aJiPME8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_f-2cyU8JEeqjxfCYnCLWQw" name="view">
+      <modelElement href="IMS-Project-Maven2.uml#_aK1PsE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f-2cyk8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aK1Ps08JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f-2cy08JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aK12wE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f-2czE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f-2czU8JEeqjxfCYnCLWQw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_f-2czk8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aK1PsU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f-2cz08JEeqjxfCYnCLWQw" name="Customer">
+          <modelElement href="IMS-Project-Maven2.uml#_aKFBwE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f-2c0E8JEeqjxfCYnCLWQw" name="delete">
+      <modelElement href="IMS-Project-Maven2.uml#_aK12wk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f-2c0U8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aK2d0U8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f-2c0k8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aK2d0k8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f-2c008JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f-2c1E8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_f-2c1U8JEeqjxfCYnCLWQw" name="id">
+        <modelElement href="IMS-Project-Maven2.uml#_aK2d0E8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f-2c1k8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f-2c108JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f-2c2E8JEeqjxfCYnCLWQw" name="CustomerServices">
+      <modelElement href="IMS-Project-Maven2.uml#_aPlM0E8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_f-2c2U8JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_f-2c2k8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f-2c208JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f-2c3E8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPlM1E8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f-2c3U8JEeqjxfCYnCLWQw" name="CustomerServices">
+          <modelElement href="IMS-Project-Maven2.uml#_aK0BkE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f-2c3k8JEeqjxfCYnCLWQw" name="customerDao">
+        <modelElement href="IMS-Project-Maven2.uml#_aPlM0U8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f-2c308JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f-2c4E8JEeqjxfCYnCLWQw" name="DAO">
+          <modelElement href="IMS-Project-Maven2.uml#_aJiPME8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f-2c4U8JEeqjxfCYnCLWQw" name="create">
+      <modelElement href="IMS-Project-Maven2.uml#_aPlz4U8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f-2c4k8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aPma8E8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f-2c408JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aPma8U8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f-2c5E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f-2c5U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f-2c5k8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPlz408JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f-2c508JEeqjxfCYnCLWQw" name="Customer">
+          <modelElement href="IMS-Project-Maven2.uml#_aKFBwE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f-2c6E8JEeqjxfCYnCLWQw" name="customer">
+        <modelElement href="IMS-Project-Maven2.uml#_aPlz4k8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f-2c6U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f-2c6k8JEeqjxfCYnCLWQw" name="Customer">
+          <modelElement href="IMS-Project-Maven2.uml#_aKFBwE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f-2c608JEeqjxfCYnCLWQw" name="update">
+      <modelElement href="IMS-Project-Maven2.uml#_aPma808JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f-2c7E8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aPnCAE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f-2c7U8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aPnCAU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f-2c7k8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f-2c708JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_f-2c8E8JEeqjxfCYnCLWQw" name="customer">
+        <modelElement href="IMS-Project-Maven2.uml#_aPma9E8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f-2c8U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f-2c8k8JEeqjxfCYnCLWQw" name="Customer">
+          <modelElement href="IMS-Project-Maven2.uml#_aKFBwE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gAXfsE8JEeqjxfCYnCLWQw" name="ItemServices" associationsOut="_gAATUE8JEeqjxfCYnCLWQw" generalizations="_f_brkE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aK4TAE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gAXfsU8JEeqjxfCYnCLWQw" position="119.0,714.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gAXfsk8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_gAXfs08JEeqjxfCYnCLWQw" name="itemsDao" staticAttribute="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQkrUU8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gAXftE8JEeqjxfCYnCLWQw" name="Generics">
+        <modelElement href="IMS-Project-Maven2.uml#_aQlSYE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gAXftU8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQlSYU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gAXftk8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_gAXft08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_gAXfuE8JEeqjxfCYnCLWQw" name="DAO">
+        <modelElement href="IMS-Project-Maven2.uml#_aJiPME8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G-Uv0E8PEeqjxfCYnCLWQw" defaultValue="0" name="id" staticAttribute="true">
+      <modelElement href="IMS-Project-Maven2.uml#_G93c0E8PEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_G-Uv0U8PEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_G94D4E8PEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_G-Uv0k8PEeqjxfCYnCLWQw" label="~"/>
+      <cardinality xmi:id="_G-Uv008PEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_G-Uv1E8PEeqjxfCYnCLWQw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gAXfuU8JEeqjxfCYnCLWQw" name="view">
+      <modelElement href="IMS-Project-Maven2.uml#_aK46EE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gAXfu08JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aK5hIU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gAXfvE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gAXfvU8JEeqjxfCYnCLWQw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_gAXfvk8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aK46EU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_gAXfv08JEeqjxfCYnCLWQw" name="Item">
+          <modelElement href="IMS-Project-Maven2.uml#_aKHeAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_gAXfwE8JEeqjxfCYnCLWQw" name="delete">
+      <modelElement href="IMS-Project-Maven2.uml#_aK6IME8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gAXfwU8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aK6IMk8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gAXfwk8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aK6vQE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gAXfw08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gAXfxE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gAXfxU8JEeqjxfCYnCLWQw" name="Id">
+        <modelElement href="IMS-Project-Maven2.uml#_aK6IMU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gAXfxk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gAXfx08JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gAXfyE8JEeqjxfCYnCLWQw" name="ItemServices">
+      <modelElement href="IMS-Project-Maven2.uml#_aPoQIE8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_gAXfyU8JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_gAXfyk8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gAXfy08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gAXfzE8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPoQJE8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_gAXfzU8JEeqjxfCYnCLWQw" name="ItemServices">
+          <modelElement href="IMS-Project-Maven2.uml#_aK4TAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gAXfzk8JEeqjxfCYnCLWQw" name="itemsDao">
+        <modelElement href="IMS-Project-Maven2.uml#_aPoQIU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gAXfz08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gAXf0E8JEeqjxfCYnCLWQw" name="DAO">
+          <modelElement href="IMS-Project-Maven2.uml#_aJiPME8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gAXf208JEeqjxfCYnCLWQw" name="update">
+      <modelElement href="IMS-Project-Maven2.uml#_aPqFUE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gAXf3E8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aPqFUk8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gAXf3U8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aPqFU08JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gAXf3k8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gAXf308JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gAXf4E8JEeqjxfCYnCLWQw" name="items">
+        <modelElement href="IMS-Project-Maven2.uml#_aPqFUU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gAXf4U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gAXf4k8JEeqjxfCYnCLWQw" name="Item">
+          <modelElement href="IMS-Project-Maven2.uml#_aKHeAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G-S6oE8PEeqjxfCYnCLWQw" name="create">
+      <modelElement href="IMS-Project-Maven2.uml#_G92OsE8PEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_G-S6oU8PEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_G-S6ok8PEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_G-S6o08PEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_G921wk8PEeqjxfCYnCLWQw"/>
+        <type xmi:id="_G-S6pE8PEeqjxfCYnCLWQw" name="Item">
+          <modelElement href="IMS-Project-Maven2.uml#_aKHeAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_G-S6pU8PEeqjxfCYnCLWQw" name="name">
+        <modelElement href="IMS-Project-Maven2.uml#_G921wE8PEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_G-S6pk8PEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_G-S6p08PEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_G-S6qE8PEeqjxfCYnCLWQw" name="value">
+        <modelElement href="IMS-Project-Maven2.uml#_G921wU8PEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_G-S6qU8PEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_G-S6qk8PEeqjxfCYnCLWQw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j05AkE8REeqjxfCYnCLWQw" name="create">
+      <modelElement href="IMS-Project-Maven2.uml#_j019QE8REeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_j05AkU8REeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_j019Q08REeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_j05Akk8REeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_j02kUE8REeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_j05Ak08REeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_j05AlE8REeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j05AlU8REeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_j019Qk8REeqjxfCYnCLWQw"/>
+        <type xmi:id="_j05Alk8REeqjxfCYnCLWQw" name="Item">
+          <modelElement href="IMS-Project-Maven2.uml#_aKHeAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_j05Al08REeqjxfCYnCLWQw" name="t">
+        <modelElement href="IMS-Project-Maven2.uml#_j019QU8REeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_j05AmE8REeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_j05AmU8REeqjxfCYnCLWQw" name="Item">
+          <modelElement href="IMS-Project-Maven2.uml#_aKHeAE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gB8NAU8JEeqjxfCYnCLWQw" name="OrderItemsServices" associationsOut="_gBlAoE8JEeqjxfCYnCLWQw" generalizations="_gA8ugE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aK79YE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gB8NAk8JEeqjxfCYnCLWQw" position="1057.0,714.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gB8NA08JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_gB8NBE8JEeqjxfCYnCLWQw" name="OrderItemsDao">
+      <modelElement href="IMS-Project-Maven2.uml#_aQl5cE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gB8NBU8JEeqjxfCYnCLWQw" name="Generics">
+        <modelElement href="IMS-Project-Maven2.uml#_aQmggE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gB8NBk8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQmggU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gB8NB08JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_gB8NCE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_gB8NCU8JEeqjxfCYnCLWQw" name="DAO">
+        <modelElement href="IMS-Project-Maven2.uml#_aJiPME8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gB8NCk8JEeqjxfCYnCLWQw" name="view">
+      <modelElement href="IMS-Project-Maven2.uml#_aK8kcE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gB8NC08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gB8NDE8JEeqjxfCYnCLWQw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_gB8NDU8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aK8kcU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_gB8NDk8JEeqjxfCYnCLWQw" name="OrderItems">
+          <modelElement href="IMS-Project-Maven2.uml#_aKNkoE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_gB8ND08JEeqjxfCYnCLWQw" name="delete">
+      <modelElement href="IMS-Project-Maven2.uml#_aK9LgE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gB8NEE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gB8NEU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gB8NEk8JEeqjxfCYnCLWQw" name="id">
+        <modelElement href="IMS-Project-Maven2.uml#_aK9LgU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gB8NE08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gB8NFE8JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gB8NFU8JEeqjxfCYnCLWQw" name="OrderItemsServices">
+      <modelElement href="IMS-Project-Maven2.uml#_aPrTcU8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_gB8NFk8JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_gB8NF08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gB8NGE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gB8NGU8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPrTdU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_gB8NGk8JEeqjxfCYnCLWQw" name="OrderItemsServices">
+          <modelElement href="IMS-Project-Maven2.uml#_aK79YE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gB8NG08JEeqjxfCYnCLWQw" name="OrderItemsDao">
+        <modelElement href="IMS-Project-Maven2.uml#_aPrTck8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gB8NHE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gB8NHU8JEeqjxfCYnCLWQw" name="DAO">
+          <modelElement href="IMS-Project-Maven2.uml#_aJiPME8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gB8NHk8JEeqjxfCYnCLWQw" name="create">
+      <modelElement href="IMS-Project-Maven2.uml#_aPr6gU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gB8NH08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gB8NIE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gB8NIU8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPshkE8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_gB8NIk8JEeqjxfCYnCLWQw" name="OrderItems">
+          <modelElement href="IMS-Project-Maven2.uml#_aKNkoE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gB8NI08JEeqjxfCYnCLWQw" name="oi">
+        <modelElement href="IMS-Project-Maven2.uml#_aPr6gk8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gB8NJE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gB8NJU8JEeqjxfCYnCLWQw" name="OrderItems">
+          <modelElement href="IMS-Project-Maven2.uml#_aKNkoE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gB8NJk8JEeqjxfCYnCLWQw" name="update">
+      <modelElement href="IMS-Project-Maven2.uml#_aPshkU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gB8NJ08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gB80EE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gB80EU8JEeqjxfCYnCLWQw" name="oi">
+        <modelElement href="IMS-Project-Maven2.uml#_aPshkk8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gB80Ek8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gB80E08JEeqjxfCYnCLWQw" name="OrderItems">
+          <modelElement href="IMS-Project-Maven2.uml#_aKNkoE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gDkksE8JEeqjxfCYnCLWQw" name="OrderServices" associationsOut="_gDMxQE8JEeqjxfCYnCLWQw" generalizations="_gCkfIE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aK-ZoE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gDkksU8JEeqjxfCYnCLWQw" position="1738.0,1039.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gDkksk8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_gDkks08JEeqjxfCYnCLWQw" name="OrderDao">
+      <modelElement href="IMS-Project-Maven2.uml#_aQmggk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gDkktE8JEeqjxfCYnCLWQw" name="Generics">
+        <modelElement href="IMS-Project-Maven2.uml#_aQnHkE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gDkktU8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQnuoE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gDkktk8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_gDkkt08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_gDkkuE8JEeqjxfCYnCLWQw" name="DAO">
+        <modelElement href="IMS-Project-Maven2.uml#_aJiPME8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gDkkuU8JEeqjxfCYnCLWQw" name="view">
+      <modelElement href="IMS-Project-Maven2.uml#_aK_AsE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gDkkuk8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aK_nwk8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gDkku08JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aK_nw08JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gDkkvE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gDkkvU8JEeqjxfCYnCLWQw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_gDkkvk8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aK_nwE8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_gDkkv08JEeqjxfCYnCLWQw" name="Order">
+          <modelElement href="IMS-Project-Maven2.uml#_aKKhUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_gDkkwE8JEeqjxfCYnCLWQw" name="delete">
+      <modelElement href="IMS-Project-Maven2.uml#_aLAO0U8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gDkkwU8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aLA14E8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gDkkwk8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aLA14U8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gDkkw08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gDkkxE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gDkkxU8JEeqjxfCYnCLWQw" name="Id">
+        <modelElement href="IMS-Project-Maven2.uml#_aLAO0k8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gDkkxk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gDkkx08JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gDkkyE8JEeqjxfCYnCLWQw" name="OrderServices">
+      <modelElement href="IMS-Project-Maven2.uml#_aPtvsE8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_gDkkyU8JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_gDkkyk8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gDkky08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gDkkzE8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPtvtE8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_gDkkzU8JEeqjxfCYnCLWQw" name="OrderServices">
+          <modelElement href="IMS-Project-Maven2.uml#_aK-ZoE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gDkkzk8JEeqjxfCYnCLWQw" name="OrderDao">
+        <modelElement href="IMS-Project-Maven2.uml#_aPtvsU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gDkkz08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gDkk0E8JEeqjxfCYnCLWQw" name="DAO">
+          <modelElement href="IMS-Project-Maven2.uml#_aJiPME8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gDkk0U8JEeqjxfCYnCLWQw" name="create">
+      <modelElement href="IMS-Project-Maven2.uml#_aPuWwU8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gDkk0k8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aPu90E8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gDkk008JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aPu90U8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gDkk1E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gDkk1U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gDkk1k8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aPuWw08JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_gDkk108JEeqjxfCYnCLWQw" name="Order">
+          <modelElement href="IMS-Project-Maven2.uml#_aKKhUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gDkk2E8JEeqjxfCYnCLWQw" name="order">
+        <modelElement href="IMS-Project-Maven2.uml#_aPuWwk8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gDkk2U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gDkk2k8JEeqjxfCYnCLWQw" name="Order">
+          <modelElement href="IMS-Project-Maven2.uml#_aKKhUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gDkk208JEeqjxfCYnCLWQw" name="update">
+      <modelElement href="IMS-Project-Maven2.uml#_aPu9008JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gDkk3E8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aPvk4E8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gDkk3U8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aPvk4U8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gDkk3k8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gDkk308JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gDkk4E8JEeqjxfCYnCLWQw" name="order">
+        <modelElement href="IMS-Project-Maven2.uml#_aPu91E8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gDkk4U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gDkk4k8JEeqjxfCYnCLWQw" name="Order">
+          <modelElement href="IMS-Project-Maven2.uml#_aKKhUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_gGR6cE8JEeqjxfCYnCLWQw" name="DAO" associationsIn="_f-i6wE8JEeqjxfCYnCLWQw _gAATUE8JEeqjxfCYnCLWQw _gBlAoE8JEeqjxfCYnCLWQw _gDMxQE8JEeqjxfCYnCLWQw" subclassedBy="_gEM20E8JEeqjxfCYnCLWQw _gEl4YE8JEeqjxfCYnCLWQw _gE1I8E8JEeqjxfCYnCLWQw _gE1I8U8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aJiPME8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gGR6cU8JEeqjxfCYnCLWQw" position="637.0,706.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_gGR6ck8JEeqjxfCYnCLWQw" name="Generics">
+      <modelElement href="IMS-Project-Maven2.uml#_aJi2QE8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <visibility xmi:id="_gGR6c08JEeqjxfCYnCLWQw" label="+"/>
+    <operations xmi:id="_gGR6dE8JEeqjxfCYnCLWQw" name="view">
+      <modelElement href="IMS-Project-Maven2.uml#_aJjdUE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gGR6dU8JEeqjxfCYnCLWQw" name="Generics">
+        <modelElement href="IMS-Project-Maven2.uml#_aJkrcE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gGR6dk8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gGR6d08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gGR6eE8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aP7yIk8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_gGR6eU8JEeqjxfCYnCLWQw" name="ArrayList">
+          <modelElement href="IMS-Project-Maven2.uml#_aPBMIE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_gGR6ek8JEeqjxfCYnCLWQw" name="delete">
+      <modelElement href="IMS-Project-Maven2.uml#_aJlSgE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gGR6e08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gGR6fE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gGR6fU8JEeqjxfCYnCLWQw" name="Id">
+        <modelElement href="IMS-Project-Maven2.uml#_aJlSgU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gGR6fk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gGR6f08JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gGR6gE8JEeqjxfCYnCLWQw" name="create">
+      <modelElement href="IMS-Project-Maven2.uml#_aP7LEk8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gGR6gU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gGR6gk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gGR6g08JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aP7yIU8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_gGR6hE8JEeqjxfCYnCLWQw" name="T">
+          <modelElement href="IMS-Project-Maven2.uml#_aP7LEE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gGR6hU8JEeqjxfCYnCLWQw" name="t">
+        <modelElement href="IMS-Project-Maven2.uml#_aP7yIE8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gGR6hk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gGR6h08JEeqjxfCYnCLWQw" name="T">
+          <modelElement href="IMS-Project-Maven2.uml#_aP7LEE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gGR6iE8JEeqjxfCYnCLWQw" name="update">
+      <modelElement href="IMS-Project-Maven2.uml#_aP7yI08JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gGR6iU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gGR6ik8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gGR6i08JEeqjxfCYnCLWQw" name="t">
+        <modelElement href="IMS-Project-Maven2.uml#_aP7yJE8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gGR6jE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gGR6jU8JEeqjxfCYnCLWQw" name="T">
+          <modelElement href="IMS-Project-Maven2.uml#_aP7LEE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gH315E8JEeqjxfCYnCLWQw" name="IMS" associationsOut="_gHJdIE8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aJmgoE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gH315U8JEeqjxfCYnCLWQw" position="518.0,1507.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gH315k8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_gH31508JEeqjxfCYnCLWQw" defaultValue="Logger.getLogger(IMS.class)" name="LOGGER" staticAttribute="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQTlkE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gH316E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gH316U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_gH316k8JEeqjxfCYnCLWQw" name="Logger">
+        <modelElement href="IMS-Project-Maven2.uml#_aO86sE8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gH31608JEeqjxfCYnCLWQw" name="IMSSystem">
+      <modelElement href="IMS-Project-Maven2.uml#_aJnHsE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gH317E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gH317U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gH317k8JEeqjxfCYnCLWQw" name="init">
+      <modelElement href="IMS-Project-Maven2.uml#_aJnuwE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gH31708JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gH318E8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gH318U8JEeqjxfCYnCLWQw" name="username">
+        <modelElement href="IMS-Project-Maven2.uml#_aJnuwU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gH318k8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gH31808JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gH319E8JEeqjxfCYnCLWQw" name="password">
+        <modelElement href="IMS-Project-Maven2.uml#_aJoV0E8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gH319U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gH319k8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gH31908JEeqjxfCYnCLWQw" name="readFile">
+      <modelElement href="IMS-Project-Maven2.uml#_aJoV0U8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gH31-E8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gH31-U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gH31-k8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aJoV008JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_gH31-08JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gH31_E8JEeqjxfCYnCLWQw" name="fileLocation">
+        <modelElement href="IMS-Project-Maven2.uml#_aJoV0k8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gH31_U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gH31_k8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gH31_08JEeqjxfCYnCLWQw" name="init">
+      <modelElement href="IMS-Project-Maven2.uml#_aJo84E8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gH32AE8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gH32AU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gH32Ak8JEeqjxfCYnCLWQw" name="jdbcConnectionUrl">
+        <modelElement href="IMS-Project-Maven2.uml#_aJo84U8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gH32A08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gH32BE8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gH32BU8JEeqjxfCYnCLWQw" name="username">
+        <modelElement href="IMS-Project-Maven2.uml#_aJo84k8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gH32Bk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gH32B08JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gH32CE8JEeqjxfCYnCLWQw" name="password">
+        <modelElement href="IMS-Project-Maven2.uml#_aJpj8E8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gH32CU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gH32Ck8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gH32C08JEeqjxfCYnCLWQw" name="fileLocation">
+        <modelElement href="IMS-Project-Maven2.uml#_aJpj8U8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gH32DE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gH32DU8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gH32Dk8JEeqjxfCYnCLWQw" name="doAction">
+      <modelElement href="IMS-Project-Maven2.uml#_aPGrsE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gH32D08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gH32EE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gH32EU8JEeqjxfCYnCLWQw" name="crudController">
+        <modelElement href="IMS-Project-Maven2.uml#_aPGrsU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gH32Ek8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gH32E08JEeqjxfCYnCLWQw" name="CrudController">
+          <modelElement href="IMS-Project-Maven2.uml#_aJtOUE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gH32FE8JEeqjxfCYnCLWQw" name="action">
+        <modelElement href="IMS-Project-Maven2.uml#_aPGrsk8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gH32FU8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_gH32Fk8JEeqjxfCYnCLWQw" name="Action">
+          <modelElement href="IMS-Project-Maven2.uml#_aJWB8E8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gJp-kU8JEeqjxfCYnCLWQw" name="Runner" associationsOut="_gIoq4E8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aJqyEE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gJp-kk8JEeqjxfCYnCLWQw" position="11.0,1987.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gJp-k08JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_gJp-lE8JEeqjxfCYnCLWQw" defaultValue="Logger.getLogger(Runner.class)" name="LOGGER" staticAttribute="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aQTlkk8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gJp-lU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gJp-lk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_gJp-l08JEeqjxfCYnCLWQw" name="Logger">
+        <modelElement href="IMS-Project-Maven2.uml#_aO86sE8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gJp-mE8JEeqjxfCYnCLWQw" name="main" staticOperation="true">
+      <modelElement href="IMS-Project-Maven2.uml#_aJsAME8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_gJp-mU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gJp-mk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gJp-m08JEeqjxfCYnCLWQw" name="args">
+        <modelElement href="IMS-Project-Maven2.uml#_aJsAMU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_gJp-nE8JEeqjxfCYnCLWQw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_gJp-nU8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gKJGwE8JEeqjxfCYnCLWQw" name="CrudController">
+    <modelElement href="IMS-Project-Maven2.uml#_aLDSIE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gKJGwU8JEeqjxfCYnCLWQw" position="899.0,2130.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gKJGwk8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gLWAoE8JEeqjxfCYnCLWQw" name="CustomerControllerTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLDSJE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gLWAoU8JEeqjxfCYnCLWQw" position="613.0,1992.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_gLWAok8JEeqjxfCYnCLWQw" name="Patch">
+      <modelElement href="IMS-Project-Maven2.uml#_fAWNIE8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <visibility xmi:id="_gLWAo08JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gNNo4E8JEeqjxfCYnCLWQw" name="CustomerControllerTest" associationsOut="_gMQmoE8JEeqjxfCYnCLWQw _gMzZME8JEeqjxfCYnCLWQw">
+    <modelElement href="IMS-Project-Maven2.uml#_aLEgQE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gNNo4U8JEeqjxfCYnCLWQw" position="1955.0,871.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_gNNo4k8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+      <modelElement href="IMS-Project-Maven2.uml#_aLEgQU8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_gNNo408JEeqjxfCYnCLWQw" name="Annotations">
+      <modelElement href="IMS-Project-Maven2.uml#_aLGVcE8JEeqjxfCYnCLWQw"/>
+    </stereotypes>
+    <visibility xmi:id="_gNNo5E8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_gNNo5U8JEeqjxfCYnCLWQw" name="customerServices">
+      <modelElement href="IMS-Project-Maven2.uml#_aQnuoU8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gNNo5k8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aQoVsE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gNNo508JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_gNNo6E8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_gNNo6U8JEeqjxfCYnCLWQw" name="CustomerServices">
+        <modelElement href="IMS-Project-Maven2.uml#_aK0BkE8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gNNo6k8JEeqjxfCYnCLWQw" name="customerController">
+      <modelElement href="IMS-Project-Maven2.uml#_aQoVsk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gNNo608JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aQoVs08JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gNNo7E8JEeqjxfCYnCLWQw" label="-"/>
+      <cardinality xmi:id="_gNNo7U8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_gNNo7k8JEeqjxfCYnCLWQw" name="CustomerController">
+        <modelElement href="IMS-Project-Maven2.uml#_aQM34E8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gNNo708JEeqjxfCYnCLWQw" name="readAllTest">
+      <modelElement href="IMS-Project-Maven2.uml#_aLEgQk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gNNo8E8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aLFHUE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gNNo8U8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gNNo8k8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gNNo808JEeqjxfCYnCLWQw" name="createTest">
+      <modelElement href="IMS-Project-Maven2.uml#_aLFHUk8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gNNo9E8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aLFHU08JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gNNo9U8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gNNo9k8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gNNo908JEeqjxfCYnCLWQw" name="updateTest">
+      <modelElement href="IMS-Project-Maven2.uml#_aLFuYE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gNNo-E8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aLFuYU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gNNo-U8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gNNo-k8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gNNo-08JEeqjxfCYnCLWQw" name="deleteTest">
+      <modelElement href="IMS-Project-Maven2.uml#_aLFuY08JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_gNNo_E8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aLFuZE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_gNNo_U8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_gNNo_k8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gOCvUE8JEeqjxfCYnCLWQw" name="ItemControllerTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLHjkE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gOCvUU8JEeqjxfCYnCLWQw" position="1875.0,1987.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gOCvUk8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gPVv0E8JEeqjxfCYnCLWQw" name="OrderControllerTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLIKoE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gPVv0U8JEeqjxfCYnCLWQw" position="13.0,2130.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gPVv0k8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gQSLAE8JEeqjxfCYnCLWQw" name="OrderItemsControllerTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLIKpE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gQSLAU8JEeqjxfCYnCLWQw" position="829.0,1987.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gQSLAk8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gRMxAE8JEeqjxfCYnCLWQw" name="CustomerTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLIxsk8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gRMxAU8JEeqjxfCYnCLWQw" position="1395.0,2130.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gRMxAk8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gSZD0E8JEeqjxfCYnCLWQw" name="ItemTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLIxtk8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gSZD0U8JEeqjxfCYnCLWQw" position="1682.0,2130.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gSZD0k8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gTR0oE8JEeqjxfCYnCLWQw" name="OrderItemsTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLJYwE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gTR0oU8JEeqjxfCYnCLWQw" position="1065.0,2130.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gTR0ok8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gULzkE8JEeqjxfCYnCLWQw" name="OrderTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLJYxE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gULzkU8JEeqjxfCYnCLWQw" position="1536.0,2130.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gULzkk8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gUqUsE8JEeqjxfCYnCLWQw" name="MySQLCustomersTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLJ_0E8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gUqUsU8JEeqjxfCYnCLWQw" position="1269.0,1987.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gUqUsk8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gVZ7kE8JEeqjxfCYnCLWQw" name="MySQLItemTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLJ_1E8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gVZ7kU8JEeqjxfCYnCLWQw" position="1233.0,2130.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gVZ7kk8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gWdrgE8JEeqjxfCYnCLWQw" name="MySQLOrderItemsTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLKm4E8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gWdrgU8JEeqjxfCYnCLWQw" position="1474.0,1987.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gWdrgk8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gXNSYE8JEeqjxfCYnCLWQw" name="MySQLOrderTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLKm5E8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gXNSYU8JEeqjxfCYnCLWQw" position="203.0,2130.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gXNSYk8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gX-HYE8JEeqjxfCYnCLWQw" name="CrudServicesTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLLN8E8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gX-HYU8JEeqjxfCYnCLWQw" position="385.0,2130.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gX-HYk8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gYwKgE8JEeqjxfCYnCLWQw" name="CustomerServicesTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLLN9E8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gYwKgU8JEeqjxfCYnCLWQw" position="1671.0,1987.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gYwKgk8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gZhmkE8JEeqjxfCYnCLWQw" name="ItemrServicesTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLL1AE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gZhmkU8JEeqjxfCYnCLWQw" position="551.0,2130.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gZhmkk8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gaTpsE8JEeqjxfCYnCLWQw" name="OrderItemsServicesTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLL1BE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gaTpsU8JEeqjxfCYnCLWQw" position="1054.0,1987.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gaTpsk8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gbEesE8JEeqjxfCYnCLWQw" name="OrderServicesTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLMcE08JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gbEesU8JEeqjxfCYnCLWQw" position="732.0,2130.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gbEesk8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gb16wE8JEeqjxfCYnCLWQw" name="UtilsTest">
+    <modelElement href="IMS-Project-Maven2.uml#_aLNDIE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_gb16wU8JEeqjxfCYnCLWQw" position="1800.0,2130.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gb16wk8JEeqjxfCYnCLWQw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_f2DGEE8JEeqjxfCYnCLWQw" name="Item">
+    <modelElement href="IMS-Project-Maven2.uml#_aKpCcE8JEeqjxfCYnCLWQw"/>
+    <visualProperties xmi:id="_f2DtIE8JEeqjxfCYnCLWQw" position="14.0,1754.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_f2DtIU8JEeqjxfCYnCLWQw" label="+"/>
+    <attributes xmi:id="_f2DtIk8JEeqjxfCYnCLWQw" name="Id">
+      <modelElement href="IMS-Project-Maven2.uml#_aQiPEE8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f2DtI08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f2DtJE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f2DtJU8JEeqjxfCYnCLWQw" name="Long">
+        <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f2DtJk8JEeqjxfCYnCLWQw" name="itemName">
+      <modelElement href="IMS-Project-Maven2.uml#_aQiPEU8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f2DtJ08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f2DtKE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f2DtKU8JEeqjxfCYnCLWQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_f2DtKk8JEeqjxfCYnCLWQw" name="value">
+      <modelElement href="IMS-Project-Maven2.uml#_aQiPEk8JEeqjxfCYnCLWQw"/>
+      <visibility xmi:id="_f2DtK08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f2DtLE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <type xmi:id="_f2DtLU8JEeqjxfCYnCLWQw" name="Long">
+        <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_f2DtLk8JEeqjxfCYnCLWQw" name="hashCode">
+      <modelElement href="IMS-Project-Maven2.uml#_aKppgE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f2DtL08JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aKqQkU8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f2DtME8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aKqQkk8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f2DtMU8JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f2DtMk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f2DtM08JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aKqQkE8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f2DtNE8JEeqjxfCYnCLWQw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_f2DtNU8JEeqjxfCYnCLWQw" name="Item">
+      <modelElement href="IMS-Project-Maven2.uml#_aQGKME8JEeqjxfCYnCLWQw"/>
+      <keywords xmi:id="_f2DtNk8JEeqjxfCYnCLWQw" keyword="create"/>
+      <visibility xmi:id="_f2DtN08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f2DtOE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f2DtOU8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aQGKNk8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f2DtOk8JEeqjxfCYnCLWQw" name="Item">
+          <modelElement href="IMS-Project-Maven2.uml#_aKpCcE8JEeqjxfCYnCLWQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f2DtO08JEeqjxfCYnCLWQw" name="Id">
+        <modelElement href="IMS-Project-Maven2.uml#_aQGKMU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f2DtPE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f2DtPU8JEeqjxfCYnCLWQw" name="Long">
+          <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_f2DtPk8JEeqjxfCYnCLWQw" name="itemName">
+        <modelElement href="IMS-Project-Maven2.uml#_aQGKMk8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f2DtP08JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f2DtQE8JEeqjxfCYnCLWQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_f2DtQU8JEeqjxfCYnCLWQw" name="value">
+        <modelElement href="IMS-Project-Maven2.uml#_aQGKM08JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f2DtQk8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f2DtQ08JEeqjxfCYnCLWQw" name="Long">
+          <modelElement href="IMS-Project-Maven2.uml#_aQBRsU8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_f2DtRE8JEeqjxfCYnCLWQw" name="equals">
+      <modelElement href="IMS-Project-Maven2.uml#_aQGxQE8JEeqjxfCYnCLWQw"/>
+      <stereotypes xmi:id="_f2DtRU8JEeqjxfCYnCLWQw" name="LegacyStyledElement">
+        <modelElement href="IMS-Project-Maven2.uml#_aQGxQ08JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_f2DtRk8JEeqjxfCYnCLWQw" name="Annotations">
+        <modelElement href="IMS-Project-Maven2.uml#_aQGxRE8JEeqjxfCYnCLWQw"/>
+      </stereotypes>
+      <visibility xmi:id="_f2DtR08JEeqjxfCYnCLWQw" label="+"/>
+      <cardinality xmi:id="_f2DtSE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_f2DtSU8JEeqjxfCYnCLWQw">
+        <modelElement href="IMS-Project-Maven2.uml#_aQGxQk8JEeqjxfCYnCLWQw"/>
+        <type xmi:id="_f2DtSk8JEeqjxfCYnCLWQw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_f2DtS08JEeqjxfCYnCLWQw" name="obj">
+        <modelElement href="IMS-Project-Maven2.uml#_aQGxQU8JEeqjxfCYnCLWQw"/>
+        <cardinality xmi:id="_f2DtTE8JEeqjxfCYnCLWQw" label="1" max="1" min="1"/>
+        <type xmi:id="_f2DtTU8JEeqjxfCYnCLWQw" name="Object">
+          <modelElement href="IMS-Project-Maven2.uml#_aQCf1k8JEeqjxfCYnCLWQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

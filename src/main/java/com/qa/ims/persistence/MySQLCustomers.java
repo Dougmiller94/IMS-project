@@ -7,15 +7,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import org.apache.log4j.Logger;
-import com.qa.ims.Config;
 import com.qa.ims.DAO;
 import com.qa.ims.databaseTables.Customer;
+import com.qa.ims.databaseTables.OrderItems;
 import com.qa.ims.utils.Utils;
-
-
-
-
-
 
 public class MySQLCustomers implements DAO<Customer> {
 
@@ -30,7 +25,8 @@ public class MySQLCustomers implements DAO<Customer> {
 		this.password = password;
 	}
 
-	public void create(Customer customer) {
+	@Override
+	public Customer create(Customer customer) {
 		System.out.println("Create Customer\n");
 		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.246.53.168:3306/IMS", username,
 				password);) {
@@ -41,9 +37,11 @@ public class MySQLCustomers implements DAO<Customer> {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		return customer;
 	}
 
-	public ArrayList<Customer> view(Customer customer) {
+	@Override
+	public ArrayList<Customer> view() {
 		ArrayList<Customer> customers = new ArrayList<Customer>();
 		System.out.println("View Customer\n");
 
@@ -55,7 +53,7 @@ public class MySQLCustomers implements DAO<Customer> {
 				int Id = resultSet.getInt("customer_id");
 				String name = resultSet.getString("customer_name");
 				String surname = resultSet.getString("customer_surname");
-				customer = new Customer(Id, name, surname);
+				Customer customer = new Customer(Id, name, surname);
 				customers.add(customer);
 				System.out.println(Id + " " + name + " " + surname);
 			}
@@ -67,6 +65,7 @@ public class MySQLCustomers implements DAO<Customer> {
 
 	}
 
+	@Override
 	public void update(Customer customer) {
 		System.out.println("Update Customer\n");
 		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.246.53.168:3306/IMS", username,
@@ -87,6 +86,7 @@ public class MySQLCustomers implements DAO<Customer> {
 
 	}
 
+	@Override
 	public void delete(int Id) {
 		System.out.println("Delete Customer\n");
 		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.246.53.168:3306/IMS", username,
