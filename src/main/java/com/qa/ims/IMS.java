@@ -7,11 +7,13 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 import org.apache.log4j.Logger;
 
 import com.qa.ims.controller.CrudController;
 import com.qa.ims.controller.CustomerController;
+import com.qa.ims.persistence.MySQLCustomers;
 import com.qa.ims.persistence.domain.Domain;
 import com.qa.ims.services.CustomerServices;
 import com.qa.ims.utils.Utils;
@@ -44,7 +46,7 @@ public class IMS {
 			switch (domain) {
 			case CUSTOMER:
 				CustomerController customerController = new CustomerController(
-						new CustomerServices(new CustomerDaoMysql(username, password)));
+						new CustomerServices(new MySQLCustomers(username, password)));
 				doAction(customerController, action);
 				break;
 			case ITEM:

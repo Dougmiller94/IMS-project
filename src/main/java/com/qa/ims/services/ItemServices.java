@@ -8,20 +8,19 @@ import com.qa.ims.databaseTables.Item;
 
 
 public class ItemServices implements CrudServices<Item> {
-
-	private DAO<Item> itemsDao;
+	static int id=0;
+	private static DAO<Item> itemsDao;
 
 	public ItemServices(DAO<Item> itemsDao) {
-		this.itemsDao = itemsDao;
+		ItemServices.itemsDao = itemsDao;
 	}
-	@Override
 	public List<Item> view() {
 		return itemsDao.view();
 	}
 
-	@Override
-	public Item create(Item item) {
-		return itemsDao.create(item);
+	public Item create(String name, double value) {
+		id++;
+		return itemsDao.create(new Item(id,name, value));
 	}
 
 	@Override
@@ -33,9 +32,10 @@ public class ItemServices implements CrudServices<Item> {
 	public void delete(int Id) {
 		itemsDao.delete(Id);
 	}
-
-	
-
-
+	@Override
+	public Item create(Item t) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

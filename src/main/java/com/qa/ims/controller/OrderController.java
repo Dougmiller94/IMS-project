@@ -44,10 +44,10 @@ public class OrderController implements CrudController<Order> {
 	@Override
 	public Order create() {
 		LOGGER.info("Please enter a customer Id");
-		int Id = getInput();
+		int Id = Integer.parseInt(getInput());
 		LOGGER.info("Please enter item name");
-		double value = getInput();
-		Order order = orderServices.create(new Order(name, value));
+		double value = Double.parseDouble(getInput());
+		Order order = orderServices.create(new Order(Id, value));
 		LOGGER.info("Item created");
 		return order;
 	}

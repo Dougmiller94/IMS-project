@@ -7,7 +7,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import org.apache.log4j.Logger;
-import com.qa.ims.Config;
 import com.qa.ims.DAO;
 import com.qa.ims.databaseTables.Customer;
 import com.qa.ims.databaseTables.OrderItems;

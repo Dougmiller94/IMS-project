@@ -2,8 +2,9 @@ package com.qa.ims;
 
 import org.apache.log4j.Logger;
 
+import com.qa.ims.databaseTables.Customer;
 import com.qa.ims.databaseTables.Item;
-
+import com.qa.ims.persistence.MySQLCustomers;
 import com.qa.ims.persistence.MySQLItem;
 
 import com.qa.ims.utils.Utils;
@@ -21,10 +22,18 @@ public class Runner {
 //		MySQLCustomers dao = new MySQLCustomers(username, password);
 //		Customer customer = new Customer(1, "Doug", "Miller");
 
-		MySQLItem dao = new MySQLItem(username, password);
-		Item items = new Item(1, "P90", 345.23);
-		dao.create(items);
+		MySQLCustomers dao = new MySQLCustomers(username, password);
+		
+		
+//		LOGGER.info("What is customer name and surname?");
+//		Customer customer = new Customer(Utils.getInput(),Utils.getInput());
+//		dao.update(customer);
+//
+//	}
 
-	}
-
+	
+	
+//	Item item = new Item(Utils.getInput(),Utils.getInput());
+//	dao.update(item);
+}
 }

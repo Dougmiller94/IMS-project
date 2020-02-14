@@ -29,6 +29,7 @@ public class CustomerController implements CrudController<Customer> {
 	/**
 	 * Reads all customers to the logger
 	 */
+	
 	@Override
 	public List<Customer> view() {
 		List<Customer> customers = customerService.view();
@@ -41,6 +42,7 @@ public class CustomerController implements CrudController<Customer> {
 	/**
 	 * Creates a customer by taking in user input
 	 */
+	
 	@Override
 	public Customer create() {
 		LOGGER.info("Please enter a first name");
@@ -55,6 +57,7 @@ public class CustomerController implements CrudController<Customer> {
 	/**
 	 * Updates an existing customer by taking in user input
 	 */
+	
 	@Override
 	public void update() {
 		LOGGER.info("Please enter the id of the customer you would like to update");
@@ -70,6 +73,7 @@ public class CustomerController implements CrudController<Customer> {
 	/**
 	 * Deletes an existing customer by the id of the customer
 	 */
+	
 	@Override
 	public void delete() {
 		LOGGER.info("Please enter the id of the customer you would like to delete");
