@@ -5,6 +5,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
+
 import org.apache.log4j.Logger;
 
 import com.qa.ims.DAO;
@@ -27,7 +28,6 @@ public class MySQLItem implements DAO<Item> {
 		System.out.println("Create Item\n");
 		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.246.53.168:3306/IMS", username,
 				password);) {
-			System.out.println("Input item name\n");
 			Statement statement = connection.createStatement();
 			statement.executeUpdate("insert into items(item_name, item_value) values('" + item.getName() + "' , '"
 					+ item.getValue() + "')");
@@ -35,29 +35,29 @@ public class MySQLItem implements DAO<Item> {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return null;
+		return item;
 	}
 
 	public ArrayList<Item> view() {
 
-		ArrayList<Item> items1 = new ArrayList<Item>();
+		ArrayList<Item> items = new ArrayList<Item>();
 		System.out.println("View Item\n");
 		ResultSet resultSet;
 		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.246.53.168:3306/IMS", username,
 				password);) {
 			Statement statement = connection.createStatement();
-			resultSet = statement.executeQuery("select * from items where item_id");
+			resultSet = statement.executeQuery("select * from items");
 			while (resultSet.next()) {
 				int Id = resultSet.getInt("item_id");
 				String name = resultSet.getString("item_name");
-				double value = resultSet.getInt("item_value");
-				Item items = new Item(Id, name, value);
-				items.add(items);
+				double value = resultSet.getDouble("item_value");
+				Item item = new Item(Id, name, value);
+				items.add(item);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return items1;
+		return items;
 	}
 
 	public void update(Item item) {

@@ -13,9 +13,15 @@ import org.apache.log4j.Logger;
 
 import com.qa.ims.controller.CrudController;
 import com.qa.ims.controller.CustomerController;
+import com.qa.ims.controller.ItemController;
+import com.qa.ims.controller.OrderController;
 import com.qa.ims.persistence.MySQLCustomers;
+import com.qa.ims.persistence.MySQLItem;
+import com.qa.ims.persistence.MySQLOrder;
 import com.qa.ims.persistence.domain.Domain;
 import com.qa.ims.services.CustomerServices;
+import com.qa.ims.services.ItemServices;
+import com.qa.ims.services.OrderServices;
 import com.qa.ims.utils.Utils;
 
 
@@ -50,10 +56,18 @@ public class IMS {
 				doAction(customerController, action);
 				break;
 			case ITEM:
+				ItemController itemController = new ItemController(
+						new ItemServices(new MySQLItem(username, password)));
+				doAction(itemController, action);
+
 				break;
 			case ORDER:
+				OrderController orderController = new OrderController(
+						new OrderServices(new MySQLOrder(username, password)));
+				doAction(orderController, action);
 				break;
 			case STOP:
+							
 				break;
 			default:
 				break;
@@ -90,7 +104,7 @@ public class IMS {
 		 * @param password
 		 */
 		public void init(String username, String password) {
-			init("jdbc:mysql://localhost:3306/", username, password, "src/main/resources/sql-schema.sql");
+			init("jdbc:mysql://35.246.53.168:3306/", username, password, "src/main/resources/sql-schema.sql");
 		}
 
 		public String readFile(String fileLocation) {

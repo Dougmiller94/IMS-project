@@ -33,7 +33,7 @@ public class ItemController implements CrudController<Item> {
 	public List<Item> view() {
 		List<Item> items = itemService.view();
 		for (Item item : items) {
-			LOGGER.info(item.getName());
+			LOGGER.info(item.toString());
 
 		}
 		return items;
