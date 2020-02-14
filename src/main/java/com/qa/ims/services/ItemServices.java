@@ -3,7 +3,7 @@ package com.qa.ims.services;
 import java.util.List;
 
 import com.qa.ims.DAO;
-import com.qa.ims.databaseTables.Item;
+import com.qa.ims.persistence.domain.Item;
 
 public class ItemServices implements CrudServices<Item> {
 	static int id = 0;

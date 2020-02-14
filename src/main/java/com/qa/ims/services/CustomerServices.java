@@ -3,8 +3,7 @@ package com.qa.ims.services;
 import java.util.List;
 
 import com.qa.ims.DAO;
-import com.qa.ims.databaseTables.Customer;
-import com.qa.ims.persistence.MySQLCustomers;
+import com.qa.ims.persistence.domain.Customer;
 
 public class CustomerServices implements CrudServices<Customer> {
 

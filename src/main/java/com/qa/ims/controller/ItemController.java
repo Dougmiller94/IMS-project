@@ -4,11 +4,8 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import com.qa.ims.databaseTables.Customer;
-import com.qa.ims.databaseTables.Item;
-import com.qa.ims.persistence.MySQLCustomers;
+import com.qa.ims.persistence.domain.Item;
 import com.qa.ims.services.CrudServices;
-import com.qa.ims.services.ItemServices;
 import com.qa.ims.utils.Utils;
 
 public class ItemController implements CrudController<Item> {
@@ -21,7 +18,7 @@ public class ItemController implements CrudController<Item> {
 		this.itemService = itemService;
 	}
 
-	String getInput() {
+	public String getInput() {
 		return Utils.getInput();
 	}
 
@@ -50,7 +47,7 @@ public class ItemController implements CrudController<Item> {
 		String name = getInput();
 		LOGGER.info("Please enter item value");
 		double value = Double.parseDouble(getInput());
-		Item item = itemService.create(new Item(name, value));
+		Item item = itemService.create(new Item(1L, name, value));
 		LOGGER.info("Item created");
 		return item;
 	}
@@ -65,7 +62,7 @@ public class ItemController implements CrudController<Item> {
 	@Override
 	public void update() {
 		LOGGER.info("Please enter the id of the Item you would like to update");
-		int id = Integer.valueOf(getInput());
+		Long id = Long.valueOf(getInput());
 		LOGGER.info("Please enter the item name");
 		String name = getInput();
 		LOGGER.info("Please enter a value");
@@ -85,8 +82,5 @@ public class ItemController implements CrudController<Item> {
 		itemService.delete(Id);
 	}
 
-	public String createString(Item item) {
-		return item.getName() + " ";
-	}
 
 }

@@ -10,9 +10,9 @@ import org.apache.log4j.Logger;
 
 import com.qa.ims.DAO;
 import com.qa.ims.Runner;
-import com.qa.ims.databaseTables.OrderItems;
+import com.qa.ims.persistence.domain.OrderItem;
 
-public class MySQLOrder_Items implements DAO<OrderItems> {
+public class MySQLOrder_Items implements DAO<OrderItem> {
 
 	public static final Logger LOGGER = Logger.getLogger(MySQLCustomers.class);
 
@@ -35,8 +35,7 @@ public class MySQLOrder_Items implements DAO<OrderItems> {
 		MySQLOrder_Items.searchId = searchId;
 	}
 
-	@Override
-	public OrderItems create(OrderItems oi) {
+	public OrderItem create(OrderItem oi) {
 
 		System.out.println("Create order_ item\n");
 		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.246.53.168:3306/IMS", username,
@@ -53,8 +52,8 @@ public class MySQLOrder_Items implements DAO<OrderItems> {
 	}
 
 	@Override
-	public ArrayList<OrderItems> view() {
-		ArrayList<OrderItems> orderItems = new ArrayList<OrderItems>();
+	public ArrayList<OrderItem> view() {
+		ArrayList<OrderItem> orderItems = new ArrayList<>();
 		System.out.println("Veiw order_ item\n");
 		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.246.53.168:3306/IMS", username,
 				password);) {
@@ -64,10 +63,10 @@ public class MySQLOrder_Items implements DAO<OrderItems> {
 					.executeQuery("select * from order_items");
 			while (resultSet.next()) {
 
-				int itemId = resultSet.getInt("item_id");
-				int orderId = resultSet.getInt("order_id");
+				Long itemId = resultSet.getLong("item_id");
+				Long orderId = resultSet.getLong("order_id");
 				int quantity = resultSet.getInt("quantity");
-				OrderItems orderItem = new OrderItems();
+				OrderItem orderItem = new OrderItem();
 				orderItem.setItemId(itemId);
 				orderItem.setOrderId(orderId);
 				orderItem.setQuantity(quantity);
@@ -80,7 +79,7 @@ public class MySQLOrder_Items implements DAO<OrderItems> {
 	}
 
 	@Override
-	public void update(OrderItems oi) {
+	public void update(OrderItem oi) {
 		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.246.53.168:3306/IMS", username,
 				password);) {
 
@@ -112,5 +111,8 @@ public class MySQLOrder_Items implements DAO<OrderItems> {
 		}
 
 	}
+
+
+
 
 }

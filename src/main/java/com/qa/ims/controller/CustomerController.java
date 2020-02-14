@@ -3,7 +3,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import com.qa.ims.databaseTables.Customer;
+import com.qa.ims.persistence.domain.Customer;
 import com.qa.ims.services.CrudServices;
 import com.qa.ims.utils.Utils;
 
@@ -22,7 +22,7 @@ public class CustomerController implements CrudController<Customer> {
 		this.customerService = customerService;
 	}
 
-	String getInput() {
+	public String getInput() {
 		return Utils.getInput();
 	}
 
@@ -61,7 +61,7 @@ public class CustomerController implements CrudController<Customer> {
 	@Override
 	public void update() {
 		LOGGER.info("Please enter the id of the customer you would like to update");
-		int id = Integer.valueOf(getInput());
+		Long id = Long.valueOf(getInput());
 		LOGGER.info("Please enter a first name");
 		String name = getInput();
 		LOGGER.info("Please enter a surname");

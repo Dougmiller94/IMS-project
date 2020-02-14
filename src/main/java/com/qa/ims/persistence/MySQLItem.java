@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import org.apache.log4j.Logger;
 
 import com.qa.ims.DAO;
-import com.qa.ims.databaseTables.Item;
+import com.qa.ims.persistence.domain.Item;
 
 public class MySQLItem implements DAO<Item> {
 
@@ -29,7 +29,7 @@ public class MySQLItem implements DAO<Item> {
 		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.246.53.168:3306/IMS", username,
 				password);) {
 			Statement statement = connection.createStatement();
-			statement.executeUpdate("insert into items(item_name, item_value) values('" + item.getName() + "' , '"
+			statement.executeUpdate("insert into items(item_name, item_value) values('" + item.getItemName() + "' , '"
 					+ item.getValue() + "')");
 
 		} catch (Exception e) {
@@ -48,7 +48,7 @@ public class MySQLItem implements DAO<Item> {
 			Statement statement = connection.createStatement();
 			resultSet = statement.executeQuery("select * from items");
 			while (resultSet.next()) {
-				int Id = resultSet.getInt("item_id");
+				Long Id = resultSet.getLong("item_id");
 				String name = resultSet.getString("item_name");
 				double value = resultSet.getDouble("item_value");
 				Item item = new Item(Id, name, value);
@@ -65,7 +65,7 @@ public class MySQLItem implements DAO<Item> {
 		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.246.53.168:3306/IMS", username,
 				password);) {
 			Statement statement = connection.createStatement();
-			statement.executeUpdate("update Items set item_id ='" + item.getName() + +item.getValue()
+			statement.executeUpdate("update Items set item_id ='" + item.getId() + +item.getValue()
 					+ "' where item_id =" + item.getId());
 			System.out.println("Item updated");
 		} catch (Exception e) {
