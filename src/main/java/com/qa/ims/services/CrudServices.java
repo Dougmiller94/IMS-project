@@ -2,8 +2,6 @@ package com.qa.ims.services;
 
 import java.util.List;
 
-import com.qa.ims.databaseTables.Customer;
-
 
 
 public interface CrudServices<T> {

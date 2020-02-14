@@ -4,9 +4,9 @@ public class Item {
 
 	private Long Id;
 	private String itemName;
-	private Long value;
+	private Double value;
 
-	public Item(Long Id, String itemName, Long value) {
+	public Item(Long Id, String itemName, Double value) {
 
 		this.Id = Id;
 		this.itemName = itemName;
@@ -29,11 +29,11 @@ public class Item {
 		this.itemName = itemName;
 	}
 
-	public Long getValue() {
+	public Double getValue() {
 		return value;
 	}
 
-	public void setValue(Long value) {
+	public void setValue(Double value) {
 		this.value = value;
 	}
 
@@ -72,6 +72,11 @@ public class Item {
 		} else if (!value.equals(other.value))
 			return false;
 		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "Item [Id=" + Id + ", itemName=" + itemName + ", value=" + value + "]";
 	}
 
 }

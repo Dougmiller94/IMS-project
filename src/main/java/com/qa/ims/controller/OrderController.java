@@ -4,11 +4,8 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import com.qa.ims.databaseTables.Customer;
-import com.qa.ims.databaseTables.Order;
-
+import com.qa.ims.persistence.domain.Order;
 import com.qa.ims.services.CrudServices;
-import com.qa.ims.services.OrderServices;
 import com.qa.ims.utils.Utils;
 
 public class OrderController implements CrudController<Order> {
@@ -44,10 +41,10 @@ public class OrderController implements CrudController<Order> {
 	@Override
 	public Order create() {
 		LOGGER.info("Please enter a customer Id");
-		int Id = Integer.parseInt(getInput());
-		LOGGER.info("Please enter item name");
-		double value = Double.parseDouble(getInput());
-		Order order = orderServices.create(new Order(Id, value));
+		Long Id = Long.parseLong(getInput());
+		LOGGER.info("Please enter total value");
+		Long value = Long.parseLong(getInput());
+		Order order = orderServices.create(new Order(1L, Id,value));
 		LOGGER.info("Item created");
 		return order;
 	}
@@ -58,12 +55,13 @@ public class OrderController implements CrudController<Order> {
 	@Override
 	public void update() {
 		LOGGER.info("Please enter the id of the order you would like to update");
-		int id = Integer.valueOf(getInput());
-		LOGGER.info("Please enter the item name");
-		String name = getInput();
+		Long id = Long.valueOf(getInput());
+		LOGGER.info("Please enter a customer Id");
+		Long custId = Long.parseLong(getInput());
+
 		LOGGER.info("Please enter a value");
-		double value = Double.parseDouble(getInput());
-		orderServices.update(new Order(id, value));
+		Long value = Long.parseLong(getInput());
+		orderServices.update(new Order(id, custId,value));
 		LOGGER.info("Order Updated");
 	}
 

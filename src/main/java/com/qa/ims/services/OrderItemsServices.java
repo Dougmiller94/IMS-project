@@ -3,28 +3,27 @@ package com.qa.ims.services;
 import java.util.List;
 
 import com.qa.ims.DAO;
-import com.qa.ims.databaseTables.OrderItems;
-import com.qa.ims.persistence.MySQLOrder_Items;
+import com.qa.ims.persistence.domain.OrderItem;
 
-public class OrderItemsServices implements CrudServices<OrderItems> {
+public class OrderItemsServices implements CrudServices<OrderItem> {
 	
  
 
-		private DAO<OrderItems> OrderItemsDao;
+		private DAO<OrderItem> OrderItemsDao;
 		
-		public OrderItemsServices(DAO<OrderItems> OrderItemsDao) {
+		public OrderItemsServices(DAO<OrderItem> OrderItemsDao) {
 			this.OrderItemsDao = OrderItemsDao;
 		}
 		
-		public List<OrderItems> view() {
+		public List<OrderItem> view() {
 			return OrderItemsDao.view();
 		}
 
-		public OrderItems create(OrderItems oi) {
+		public OrderItem create(OrderItem oi) {
 			return OrderItemsDao.create(oi);
 		}
 
-		public void update(OrderItems oi) {
+		public void update(OrderItem oi) {
 			 OrderItemsDao.update(oi);
 		}
 

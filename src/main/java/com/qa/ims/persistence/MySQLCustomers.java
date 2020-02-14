@@ -3,14 +3,13 @@ package com.qa.ims.persistence;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+
 import org.apache.log4j.Logger;
+
 import com.qa.ims.DAO;
-import com.qa.ims.databaseTables.Customer;
-import com.qa.ims.databaseTables.OrderItems;
-import com.qa.ims.utils.Utils;
+import com.qa.ims.persistence.domain.Customer;
 
 public class MySQLCustomers implements DAO<Customer> {
 
@@ -32,7 +31,7 @@ public class MySQLCustomers implements DAO<Customer> {
 				password);) {
 			Statement statement = connection.createStatement();
 			statement.executeUpdate("insert into customers(customer_name, customer_surname) values('"
-					+ customer.getName() + "', '" + customer.getSurname() + "')");
+					+ customer.getFirstName() + "', '" + customer.getSurname() + "')");
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -50,7 +49,7 @@ public class MySQLCustomers implements DAO<Customer> {
 			Statement statement = connection.createStatement();
 			ResultSet resultSet = statement.executeQuery("select * from customers");
 			while (resultSet.next()) {
-				int Id = resultSet.getInt("customer_id");
+				Long Id = resultSet.getLong("customer_id");
 				String name = resultSet.getString("customer_name");
 				String surname = resultSet.getString("customer_surname");
 				Customer customer = new Customer(Id, name, surname);
@@ -76,7 +75,7 @@ public class MySQLCustomers implements DAO<Customer> {
 //			System.out.println("What is the customers surname?");
 //			String surname=Utils.getInput();
 			statement = connection.createStatement();
-			statement.executeUpdate("update customers set customer_name ='" + customer.getName()
+			statement.executeUpdate("update customers set customer_name ='" + customer.getFirstName()
 					+ "', customer_surname ='" + customer.getSurname() + "' where customer_id =" + customer.getId());
 		} catch (Exception e) {
 			LOGGER.debug(e.getStackTrace());

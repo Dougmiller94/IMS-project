@@ -21,6 +21,11 @@ public class Order {
 		Id = id;
 	}
 
+	@Override
+	public String toString() {
+		return "Order [Id=" + Id + ", customerId=" + customerId + ", orderTotal=" + orderTotal + "]";
+	}
+
 	public Long getCustomerId() {
 		return customerId;
 	}

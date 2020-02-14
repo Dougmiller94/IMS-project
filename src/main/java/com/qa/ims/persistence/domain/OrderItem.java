@@ -4,11 +4,17 @@ public class OrderItem {
 
 	private Long itemId;
 	private Long orderId;
-
-	public OrderItem(Long itemId, Long orderId) {
+	private int quantity;
+	
+	public OrderItem(Long itemId, Long orderId, int quantity) {
 
 		this.itemId = itemId;
 		this.orderId = orderId;
+		this.quantity = quantity;
+	}
+
+	public OrderItem() {
+		// TODO Auto-generated constructor stub
 	}
 
 	public Long getItemId() {
@@ -34,6 +40,14 @@ public class OrderItem {
 		result = prime * result + ((itemId == null) ? 0 : itemId.hashCode());
 		result = prime * result + ((orderId == null) ? 0 : orderId.hashCode());
 		return result;
+	}
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
 	}
 
 	@Override

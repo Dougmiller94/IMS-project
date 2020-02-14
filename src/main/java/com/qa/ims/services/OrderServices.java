@@ -3,8 +3,7 @@ package com.qa.ims.services;
 import java.util.List;
 
 import com.qa.ims.DAO;
-
-import com.qa.ims.databaseTables.Order;
+import com.qa.ims.persistence.domain.Order;
 
 public class OrderServices implements CrudServices<Order> {
 

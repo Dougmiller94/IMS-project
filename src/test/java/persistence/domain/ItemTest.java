@@ -1,4 +1,4 @@
-package databaseTables;
+package persistence.domain;
 
 public class ItemTest {
 

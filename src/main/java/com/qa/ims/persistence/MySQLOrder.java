@@ -5,11 +5,12 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
+
 import org.apache.log4j.Logger;
+
 import com.qa.ims.DAO;
 import com.qa.ims.Runner;
-
-import com.qa.ims.databaseTables.Order;
+import com.qa.ims.persistence.domain.Order;
 
 public class MySQLOrder implements DAO<Order> {
 
@@ -48,11 +49,11 @@ public class MySQLOrder implements DAO<Order> {
 				password);) {
 
 			Statement statement = connection.createStatement();
-			ResultSet resultSet = statement.executeQuery("select * from item");
+			ResultSet resultSet = statement.executeQuery("select * from orders");
 			while (resultSet.next()) {
-				int Id = resultSet.getInt("order_id");
-				int customerId = resultSet.getInt("customer_id");
-				float value = resultSet.getFloat("value");
+				Long Id = resultSet.getLong("order_id");
+				Long customerId = resultSet.getLong("customer_id");
+				Long value = resultSet.getLong("order_total");
 				Order order1 = new Order(Id, customerId, value);
 				orders.add(order1);
 			}
