@@ -1,6 +1,6 @@
 package com.qa.ims.databaseTables;
 
-public class Orders {
+public class Order {
 
 	private int id;
 	private int customerId;
@@ -30,12 +30,26 @@ public class Orders {
 		this.value = value2;
 	}
 
-	public Orders(int id, int customerId, double value) {
+	public Order(int id, int customerId, double value) {
 
 		this.setId(id);
 		this.setCustomerId(customerId);
 		this.setValue(value);
 
 	}
+	
+	
+	public Order(int id, double value) {
 
+		this.setId(id);
+		this.setValue(value);
+
+	}
+
+	public void add(Order orders) {
+		// TODO Auto-generated method stub
+		
+	}
 }
+
+
