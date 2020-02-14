@@ -7,13 +7,15 @@ public class Item {
 	private double value;
 
 	public Item(int Id, String name, double value) {
-
+		this.id = Id;
+		this.name = name;
+		this.value = value;
 	}
 
 	public Item(String name, double value) {
 		
-		this.setName(name);
-		this.setValue(value);
+		this.name = name;
+		this.value = value;
 
 	}
 
@@ -31,6 +33,11 @@ public class Item {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Item [id=" + id + ", name=" + name + ", value=" + value + "]";
 	}
 
 	public double getValue() {

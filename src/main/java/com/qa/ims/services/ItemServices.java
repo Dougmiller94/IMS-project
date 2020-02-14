@@ -5,22 +5,20 @@ import java.util.List;
 import com.qa.ims.DAO;
 import com.qa.ims.databaseTables.Item;
 
-
-
 public class ItemServices implements CrudServices<Item> {
-	static int id=0;
-	private static DAO<Item> itemsDao;
+	static int id = 0;
+	private DAO<Item> itemsDao;
 
 	public ItemServices(DAO<Item> itemsDao) {
-		ItemServices.itemsDao = itemsDao;
+		this.itemsDao = itemsDao;
 	}
+
 	public List<Item> view() {
 		return itemsDao.view();
 	}
 
-	public Item create(String name, double value) {
-		id++;
-		return itemsDao.create(new Item(id,name, value));
+	public Item create(Item item) {
+		return itemsDao.create(item);
 	}
 
 	@Override
@@ -32,10 +30,6 @@ public class ItemServices implements CrudServices<Item> {
 	public void delete(int Id) {
 		itemsDao.delete(Id);
 	}
-	@Override
-	public Item create(Item t) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+
 
 }
